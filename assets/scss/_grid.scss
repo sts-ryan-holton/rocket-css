@@ -1,0 +1,26 @@
+.rkt-container {
+  max-width: $container-width;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rkt-container-fluid {
+  max-width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rkt-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rkt-col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}

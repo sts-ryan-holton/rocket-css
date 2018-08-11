@@ -43,7 +43,6 @@ module.exports = {
   },
   css: [
     // SCSS file in the project
-    '@/assets/scss/rocketcss-base.scss',
     '@/assets/scss/rocketcss.scss'
   ]
 }

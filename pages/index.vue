@@ -1,51 +1,64 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h2 class="subtitle">
-        {{ title }}
-      </h2>
+  <div>
+    <div class="rkt-container">
+      <div class="rkt-row">
+        <div class="rkt-col">
+          <a class="rkt-btn rkt-btn-primary" href="#">Primary</a>
+          <button class="rkt-btn rkt-btn-secondary" type="button">Secondary</button>
+          <button class="rkt-btn rkt-btn-success" type="button">Success</button>
+          <button class="rkt-btn rkt-btn-warning" type="button">Warning</button>
+          <button class="rkt-btn rkt-btn-danger" type="button">Danger</button>
+          <button class="rkt-btn rkt-btn-info" type="button">Info</button>
+          <button class="rkt-btn rkt-btn-dark" type="button">Dark</button>
+          <button class="rkt-btn rkt-btn-light" type="button">Light</button>
+        </div>
+      </div>
+      <div class="rkt-row">
+        <div class="rkt-col">
+          <button class="rkt-btn rkt-btn-primary rkt-btn-rounded" type="button">Primary</button>
+          <button class="rkt-btn rkt-btn-secondary rkt-btn-rounded" type="button">Secondary</button>
+          <button class="rkt-btn rkt-btn-success rkt-btn-rounded" type="button">Success</button>
+          <button class="rkt-btn rkt-btn-warning rkt-btn-rounded" type="button">Warning</button>
+          <button class="rkt-btn rkt-btn-danger rkt-btn-rounded" type="button">Danger</button>
+          <button class="rkt-btn rkt-btn-info rkt-btn-rounded" type="button">Info</button>
+          <button class="rkt-btn rkt-btn-dark rkt-btn-rounded" type="button">Dark</button>
+          <button class="rkt-btn rkt-btn-light rkt-btn-rounded" type="button">Light</button>
+        </div>
+      </div>
+      <div class="rkt-row">
+        <div class="rkt-col">
+          <button class="rkt-btn rkt-btn-outline-primary" type="button">Primary</button>
+          <button class="rkt-btn rkt-btn-outline-secondary" type="button">Secondary</button>
+          <button class="rkt-btn rkt-btn-outline-success" type="button">Success</button>
+          <button class="rkt-btn rkt-btn-outline-warning" type="button">Warning</button>
+          <button class="rkt-btn rkt-btn-outline-danger" type="button">Danger</button>
+          <button class="rkt-btn rkt-btn-outline-info" type="button">Info</button>
+          <button class="rkt-btn rkt-btn-outline-dark" type="button">Dark</button>
+          <button class="rkt-btn rkt-btn-outline-light" type="button">Light</button>
+        </div>
+      </div>
+      <div class="rkt-row">
+        <div class="rkt-col">
+          <button class="rkt-btn rkt-btn-primary rkt-btn-small" type="button">Small Button</button>
+          <button class="rkt-btn rkt-btn-primary" type="button">Default Button</button>
+          <button class="rkt-btn rkt-btn-primary rkt-btn-large" type="button">Large Button</button>
+        </div>
+      </div>
+      <div class="rkt-row">
+        <div class="rkt-col">
+          <button class="rkt-btn rkt-btn-primary rkt-btn-block" type="button">Block Button</button>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
-      title: "Home of the new lightweight Rocket CSS framework."
+
     }
   }
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
