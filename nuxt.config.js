@@ -5,6 +5,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  mode: 'spa',
   head: {
     title: 'rocket-css',
     meta: [
