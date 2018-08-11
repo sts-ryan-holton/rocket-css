@@ -1,4 +1,7 @@
 module.exports = {
+  /*
+  ** Router
+  */
   router: {
     base: '/rocket-css/'
   },

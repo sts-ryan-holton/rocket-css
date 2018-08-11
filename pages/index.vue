@@ -5,8 +5,6 @@
       <h2 class="subtitle">
         {{ title }}
       </h2>
-      <img src="~/assets/placeholder.png">
-      <nuxt-link to="/about">about</nuxt-link>
     </div>
   </section>
 </template>
