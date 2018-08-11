@@ -1,10 +1,7 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+module.exports = {
   router: {
     base: '/rocket-css/'
-  }
-} : {}
-module.exports = {
-  routerBase,
+  },
   /*
   ** Headers of the page
   */
