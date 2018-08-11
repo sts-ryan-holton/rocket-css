@@ -1,5 +1,6 @@
 <template>
   <div>
+    <img src="~/assets/20x20.png">
     <nuxt/>
   </div>
 </template>

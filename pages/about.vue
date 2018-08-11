@@ -6,7 +6,6 @@
         {{ title }}
       </h2>
       <img src="~/assets/placeholder.png">
-      <nuxt-link to="/about">about</nuxt-link>
     </div>
   </section>
 </template>
@@ -15,7 +14,7 @@
 export default {
   data () {
     return {
-      title: "Home of the new lightweight Rocket CSS framework."
+      title: "about"
     }
   }
 }
