@@ -9,14 +9,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'rocket-css',
+    title: 'Rocket CSS',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'The home of the open source lightweight Rocket CSS framework.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/rocket-css/favicon.ico' }
     ]
   },
   /*
@@ -40,5 +40,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  css: [
+    // SCSS file in the project
+    '@/assets/scss/rocketcss-base.scss',
+    '@/assets/scss/rocketcss.scss'
+  ]
 }
