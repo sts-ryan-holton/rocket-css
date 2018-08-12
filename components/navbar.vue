@@ -13,7 +13,7 @@
             <nuxt-link to="/" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>Home</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/docs/getting-started/" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>Documentation</nuxt-link>
+            <nuxt-link to="/docs" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active">Documentation</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/about" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>About</nuxt-link>

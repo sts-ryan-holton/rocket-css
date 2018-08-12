@@ -3,7 +3,10 @@ module.exports = {
   ** Router
   */
   router: {
-    base: '/rocket-css/'
+    base: '/rocket-css/',
+    scrollBehavior: function (to, from, savedPosition) {
+      return { x: 0, y: 0 }
+    }
   },
   /*
   ** Headers of the page

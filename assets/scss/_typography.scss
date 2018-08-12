@@ -1,8 +1,14 @@
 p {
   line-height: 1.6em;
   font-size: 1em;
+  margin-top: 5px;
   margin-bottom: 15px;
   color: $dark;
+}
+
+.rkt-lead {
+  font-size: 1.1em;
+  line-height: 1.8em;
 }
 
 h1,

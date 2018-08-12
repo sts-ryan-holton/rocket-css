@@ -7,7 +7,7 @@
             <div class="rkt-col rkt-col-is-three-quarters-desktop rkt-is-tablet">
               <h1 class="rkt-font-weight-light rkt-marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
               <div class="rkt-d-flex-tablet rkt-flex-column-mobile rkt-p-y-2 rkt-home-buttons">
-                <nuxt-link to="/docs/getting-started/" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~/assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
+                <nuxt-link to="/docs" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~/assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
                 <a href="#" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-flex-fill-tablet rkt-m-l-1 rkt-marginless-mobile"><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1 rkt-d-none-mobile">save_alt</i></a>
               </div>
               <p class="rkt-marginless rkt-text-muted">
@@ -46,6 +46,7 @@
 
 <script>
 export default {
+  scrollToTop: true,
   data () {
     return {
       rocketVersion: "v0.1.0-Alpha.1",

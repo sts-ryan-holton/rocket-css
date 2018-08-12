@@ -39,6 +39,7 @@
 
 <script>
 export default {
+  scrollToTop: true,
   data () {
     return {
       rocketVersion: "v0.1.0",

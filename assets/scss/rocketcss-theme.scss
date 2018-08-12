@@ -19,6 +19,35 @@
   }
 }
 
+.rkt-docnav-item {
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        font-size: .85em;
+      }
+    }
+  }
+}
+
+.rkt-docs-item {
+  opacity: .75;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.rkt-docs-item-active {
+  opacity: 1;
+  ul {
+    display: block;
+  }
+}
+
+.rkt-docs-nav-sidebar {
+  background-color: #fbfbfb;
+}
+
 @media (max-width: 576px) {
 
   .rkt-home-buttons {

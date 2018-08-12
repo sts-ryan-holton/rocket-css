@@ -9,7 +9,7 @@
                 <a href="https://github.com/sts-ryan-holton/rocket-css" target="_blank" class="rkt-text-white rkt-font-weight-normal">Github</a>
               </li>
               <li class="rkt-m-l-2">
-                <nuxt-link to="/docs/getting-started/" class="rkt-text-white rkt-font-weight-normal" exact>Documentation</nuxt-link>
+                <nuxt-link to="/docs" class="rkt-text-white rkt-font-weight-normal" exact>Documentation</nuxt-link>
               </li>
               <li class="rkt-m-l-2">
                 <nuxt-link to="/about" class="rkt-text-white rkt-font-weight-normal" exact>About</nuxt-link>
