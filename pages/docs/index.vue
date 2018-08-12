@@ -28,7 +28,7 @@
               </p>
               <figure class="rkt-highlight">
                 <code>
-                  &lt;link rel="stylesheet" type="text/css" href="theme.css"&gt;
+                  &lt;link rel="stylesheet" type="text/css" href="<strong>rocket-css.min.css</strong>"&gt;
                 </code>
               </figure>
             </div>

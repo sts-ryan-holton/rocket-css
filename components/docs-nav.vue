@@ -3,9 +3,15 @@
     <nav>
       <div class="rkt-docnav-item">
         <nuxt-link to="/docs" class="rkt-docs-item rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Getting Started</nuxt-link>
+        <ul class="rkt-marginless rkt-paddingless">
+          <li>
+            <nuxt-link to="/docs" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Welcome</nuxt-link>
+          </li>
+        </ul>
       </div>
       <div class="rkt-docnav-item">
         <nuxt-link to="/docs/layout/grid" class="rkt-docs-item rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active">Layout</nuxt-link>
+
         <ul class="rkt-marginless rkt-paddingless">
           <li>
             <nuxt-link to="/docs/layout/grid" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Grid</nuxt-link>
@@ -20,6 +26,17 @@
           </li>
           <li>
             <nuxt-link to="/docs/components/hero" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Hero</nuxt-link>
+          </li>
+        </ul>
+      </div>
+      <div class="rkt-docnav-item">
+        <nuxt-link to="/docs/utilities/colours" class="rkt-docs-item rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active">Utilities</nuxt-link>
+        <ul class="rkt-marginless rkt-paddingless">
+          <li>
+            <nuxt-link to="/docs/utilities/colours" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Colours</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/docs/utilities/spacing" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Spacing</nuxt-link>
           </li>
         </ul>
       </div>
