@@ -13,7 +13,12 @@
   background-color: $dark;
 }
 
+.rkt-navbar-primary {
+  background-color: $primary;
+}
+
 .rkt-navbar-toggle {
+  display: none;
   position: relative;
   height: 40px;
   width: 40px;
@@ -55,7 +60,7 @@
   padding-top: .5em;
   padding-bottom: .5em;
   padding-right: 1.1em;
-  font-size: .85em;
+  font-size: 1.2em;
   letter-spacing: .1px;
 }
 
@@ -63,4 +68,12 @@
   padding: .5em .7em;
   font-size: .85em;
   letter-spacing: .1px;
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.rkt-nav-link-active {
+  opacity: 1;
 }

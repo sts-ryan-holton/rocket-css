@@ -1,0 +1,48 @@
+p {
+  line-height: 1.6em;
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: $dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark;
+  line-height: 1.45em;
+}
+
+.rkt-font-weight-light {
+  font-weight: $font-weight-light;
+}
+
+.rkt-font-weight-normal {
+  font-weight: $font-weight-normal;
+}
+
+.rkt-font-weight-bold {
+  font-weight: $font-weight-bold;
+}
+
+.rkt-text-lowercase {
+  text-transform: lowercase;
+}
+
+.rkt-text-uppercase {
+  text-transform: uppercase;
+}
+
+.rkt-text-center {
+  text-align: center;
+}
+
+.rkt-text-left {
+  text-align: left;
+}
+
+.rkt-text-right {
+  text-align: right;
+}

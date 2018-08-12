@@ -1,47 +1,21 @@
-.rkt-paddingless {
-  padding: 0 !important
-}
-
-.rkt-marginless {
-  margin: 0 !important
-}
-
-.rkt-m-auto {
-  margin: auto !important;
-}
-
-.rkt-ml-auto {
-  margin-left: auto !important;
-}
-
-.rkt-mr-auto {
-  margin-right: auto !important;
-}
-
-.rkt-text-center {
-  text-align: center !important;
-}
-
-.rkt-text-left {
-  text-align: left !important;
-}
-
-.rkt-text-right {
-  text-align: right !important;
-}
-
 .rkt-visibility-hide {
-  visibility: hidden !important;
+  visibility: hidden;
 }
 
 .rkt-visibility-show {
-  visibility: visible !important;
+  visibility: visible;
 }
 
 .rkt-hide {
-  display: none !important;
+  display: none;
 }
 
 .rkt-visibility-show {
-  display: inline-block !important;
+  display: inline-block;
+}
+
+code {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: monospace;
 }

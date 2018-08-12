@@ -16,7 +16,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'The home of the open source lightweight Rocket CSS framework.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/rocket-css/favicon.ico' }
+      { rel: 'icon', type: 'png', href: '/rocket-css/favicon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
     ]
   },
   /*
@@ -43,6 +44,7 @@ module.exports = {
   },
   css: [
     // SCSS file in the project
-    '@/assets/scss/rocketcss.scss'
+    '@/assets/scss/rocketcss.scss',
+    '@/assets/scss/rocketcss-theme.scss'
   ]
 }

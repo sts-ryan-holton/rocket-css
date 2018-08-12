@@ -1,55 +1,33 @@
 <template>
   <div>
-    <div class="rkt-container">
-      <div class="rkt-row">
-        <div class="rkt-col">
-          <a class="rkt-btn rkt-btn-primary" href="#">Primary</a>
-          <button class="rkt-btn rkt-btn-secondary" type="button">Secondary</button>
-          <button class="rkt-btn rkt-btn-success" type="button">Success</button>
-          <button class="rkt-btn rkt-btn-warning" type="button">Warning</button>
-          <button class="rkt-btn rkt-btn-danger" type="button">Danger</button>
-          <button class="rkt-btn rkt-btn-info" type="button">Info</button>
-          <button class="rkt-btn rkt-btn-dark" type="button">Dark</button>
-          <button class="rkt-btn rkt-btn-light" type="button">Light</button>
+    <section class="rkt-hero rkt-hero-extra-large">
+      <div class="rkt-hero-body">
+        <div class="rkt-container">
+          <div class="rkt-row">
+            <div class="rkt-col rkt-col-half">
+              <div class="rkt-row">
+                <div class="rkt-col">
+                  <h1 class="rkt-font-weight-light rkt-marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
+                </div>
+              </div>
+              <div class="rkt-row">
+                <div class="rkt-col">
+                  <nuxt-link to="/docs/getting-started/" class="rkt-btn rkt-btn-primary rkt-btn-large">{{ button.one.text }}<img src="~/assets/icons/rocket.svg" class="rkt-m-l-1 rkt-align-middle rocket-icon"></nuxt-link>
+                  <a href="#" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-m-l-1"><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1">save_alt</i></a>
+                </div>
+              </div>
+              <div class="rkt-row">
+                <div class="rkt-col">
+                  <p class="rkt-marginless">
+                    <small>Version: {{ rocketVersion }}</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="rkt-row">
-        <div class="rkt-col">
-          <button class="rkt-btn rkt-btn-primary rkt-btn-rounded" type="button">Primary</button>
-          <button class="rkt-btn rkt-btn-secondary rkt-btn-rounded" type="button">Secondary</button>
-          <button class="rkt-btn rkt-btn-success rkt-btn-rounded" type="button">Success</button>
-          <button class="rkt-btn rkt-btn-warning rkt-btn-rounded" type="button">Warning</button>
-          <button class="rkt-btn rkt-btn-danger rkt-btn-rounded" type="button">Danger</button>
-          <button class="rkt-btn rkt-btn-info rkt-btn-rounded" type="button">Info</button>
-          <button class="rkt-btn rkt-btn-dark rkt-btn-rounded" type="button">Dark</button>
-          <button class="rkt-btn rkt-btn-light rkt-btn-rounded" type="button">Light</button>
-        </div>
-      </div>
-      <div class="rkt-row">
-        <div class="rkt-col">
-          <button class="rkt-btn rkt-btn-outline-primary" type="button">Primary</button>
-          <button class="rkt-btn rkt-btn-outline-secondary" type="button">Secondary</button>
-          <button class="rkt-btn rkt-btn-outline-success" type="button">Success</button>
-          <button class="rkt-btn rkt-btn-outline-warning" type="button">Warning</button>
-          <button class="rkt-btn rkt-btn-outline-danger" type="button">Danger</button>
-          <button class="rkt-btn rkt-btn-outline-info" type="button">Info</button>
-          <button class="rkt-btn rkt-btn-outline-dark" type="button">Dark</button>
-          <button class="rkt-btn rkt-btn-outline-light" type="button">Light</button>
-        </div>
-      </div>
-      <div class="rkt-row">
-        <div class="rkt-col">
-          <button class="rkt-btn rkt-btn-primary rkt-btn-small" type="button">Small Button</button>
-          <button class="rkt-btn rkt-btn-primary" type="button">Default Button</button>
-          <button class="rkt-btn rkt-btn-primary rkt-btn-large" type="button">Large Button</button>
-        </div>
-      </div>
-      <div class="rkt-row">
-        <div class="rkt-col">
-          <button class="rkt-btn rkt-btn-primary rkt-btn-block" type="button">Block Button</button>
-        </div>
-      </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -57,8 +35,24 @@
 export default {
   data () {
     return {
-
+      rocketVersion: "v0.1.0",
+      brand: "Rocket CSS",
+      title: "is an open source, lightweight CSS framework built using Flexbox.",
+      button: {
+        one: {
+          text: "Get Started"
+        },
+        two: {
+          text: "Download"
+        }
+      }
     }
+  },
+  head: {
+    title: 'Rocket CSS - simple, lightweight CSS framework built using Flexbox',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Rocket CSS is an open source, lightweight CSS framework built using Flexbox. Download for FREE today.' }
+    ]
   }
 }
 </script>

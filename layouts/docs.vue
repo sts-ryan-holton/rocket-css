@@ -2,7 +2,6 @@
   <div>
     <app-nav></app-nav>
     <nuxt/>
-    <app-footer></app-footer>
   </div>
 </template>
 
@@ -20,5 +19,4 @@ export default {
     }
   }
 }
-
 </script>

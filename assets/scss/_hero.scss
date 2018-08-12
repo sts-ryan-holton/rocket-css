@@ -1,0 +1,33 @@
+.rkt-hero {
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.rkt-hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3.5em 1em;
+}
+
+.rkt-hero-small {
+  .rkt-hero-body {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}
+
+.rkt-hero-large {
+  .rkt-hero-body {
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+  }
+}
+
+.rkt-hero-extra-large {
+  .rkt-hero-body {
+    padding-top: 7.5em;
+    padding-bottom: 7.5em;
+  }
+}
