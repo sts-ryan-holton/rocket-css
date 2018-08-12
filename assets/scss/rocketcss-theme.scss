@@ -2,3 +2,41 @@
   width: 24px;
   height: 24px;
 }
+
+.rocket-brand {
+  max-width: 200px;
+}
+
+.rkt-footer-links {
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  .rkt-home-buttons {
+    .rkt-btn-primary {
+      margin-bottom: .5em;
+    }
+  }
+
+  .rkt-page-hero {
+    .rkt-hero-body {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  .rkt-home-guide {
+    padding-top: .5em;
+    padding-bottom: 0;
+  }
+
+}

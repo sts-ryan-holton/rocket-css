@@ -22,6 +22,10 @@
   margin-left: auto;
 }
 
+.rkt-m-t-0 {
+  margin-top: 0;
+}
+
 .rkt-m-t-1 {
   margin-top: $default-spacing;
 }
@@ -40,6 +44,10 @@
 
 .rkt-m-t-5 {
   margin-top: $default-spacing + 4;
+}
+
+.rkt-m-r-0 {
+  margin-right: 0;
 }
 
 .rkt-m-r-1 {
@@ -62,6 +70,10 @@
   margin-right: $default-spacing + 4;
 }
 
+.rkt-m-b-0 {
+  margin-bottom: 0;
+}
+
 .rkt-m-b-1 {
   margin-bottom: $default-spacing;
 }
@@ -82,6 +94,10 @@
   margin-bottom: $default-spacing + 4;
 }
 
+.rkt-m-l-0 {
+  margin-left: 0;
+}
+
 .rkt-m-l-1 {
   margin-left: $default-spacing;
 }
@@ -100,6 +116,11 @@
 
 .rkt-m-l-5 {
   margin-left: $default-spacing + 4;
+}
+
+.rkt-m-y-0 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .rkt-m-y-1 {
@@ -127,6 +148,11 @@
   margin-bottom: $default-spacing + 4;
 }
 
+.rkt-m-x-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .rkt-m-x-1 {
   margin-left: $default-spacing;
   margin-right: $default-spacing;
@@ -150,6 +176,10 @@
 .rkt-m-x-5 {
   margin-left: $default-spacing + 4;
   margin-right: $default-spacing + 4;
+}
+
+.rkt-m-0 {
+  margin: 0;
 }
 
 .rkt-m-1 {
@@ -196,6 +226,10 @@
   padding-left: auto;
 }
 
+.rkt-p-t-0 {
+  padding-top: 0;
+}
+
 .rkt-p-t-1 {
   padding-top: $default-spacing;
 }
@@ -214,6 +248,10 @@
 
 .rkt-p-t-5 {
   padding-top: $default-spacing + 4;
+}
+
+.rkt-p-r-0 {
+  padding-right: 0;
 }
 
 .rkt-p-r-1 {
@@ -236,6 +274,10 @@
   padding-right: $default-spacing + 4;
 }
 
+.rkt-p-b-0 {
+  padding-bottom: 0;
+}
+
 .rkt-p-b-1 {
   padding-bottom: $default-spacing;
 }
@@ -256,6 +298,10 @@
   padding-bottom: $default-spacing + 4;
 }
 
+.rkt-p-l-0 {
+  padding-left: 0;
+}
+
 .rkt-p-l-1 {
   padding-left: $default-spacing;
 }
@@ -274,6 +320,11 @@
 
 .rkt-p-l-5 {
   padding-left: $default-spacing + 4;
+}
+
+.rkt-p-y-0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .rkt-p-y-1 {
@@ -301,6 +352,11 @@
   padding-bottom: $default-spacing + 4;
 }
 
+.rkt-p-x-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .rkt-p-x-1 {
   padding-left: $default-spacing;
   padding-right: $default-spacing;
@@ -324,6 +380,10 @@
 .rkt-p-x-5 {
   padding-left: $default-spacing + 4;
   padding-right: $default-spacing + 4;
+}
+
+.rkt-p-0 {
+  padding: 0;
 }
 
 .rkt-p-1 {

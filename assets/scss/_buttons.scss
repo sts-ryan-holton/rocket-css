@@ -3,9 +3,18 @@ a {
   cursor: pointer;
 }
 
+p {
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .rkt-btn {
   display: inline-block;
-  font-weight: 400;
+  text-align: center;
+  font-weight: $font-weight-normal;
   vertical-align: middle;
   user-select: none;
   letter-spacing: .15px;

@@ -24,7 +24,17 @@
   padding: .75em;
 }
 
+.rkt-col-one-quarter {
+  flex: none;
+  width: 25%;
+}
+
 .rkt-col-half {
   flex: none;
   width: 50%;
+}
+
+.rkt-col-three-quarters {
+  flex: none;
+  width: 75%;
 }

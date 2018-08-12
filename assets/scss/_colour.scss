@@ -26,12 +26,20 @@
   color: $dark;
 }
 
+.rkt-text-muted {
+  color: lighten($dark, 40%);
+}
+
 .rkt-text-light {
   color: $light;
 }
 
 .rkt-text-white {
   color: $white;
+}
+
+.rkt-text-black {
+  color: $black;
 }
 
 .rkt-bg-primary {
@@ -68,4 +76,8 @@
 
 .rkt-bg-white {
   background-color: $white;
+}
+
+.rkt-bg-black {
+  background-color: $black;
 }

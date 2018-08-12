@@ -15,9 +15,12 @@
           <li>
             <nuxt-link to="/docs/getting-started/" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>Documentation</nuxt-link>
           </li>
+          <li>
+            <nuxt-link to="/about" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>About</nuxt-link>
+          </li>
         </ul>
       </div>
-      <div class="rkt-ml-auto">
+      <div class="rkt-ml-auto rkt-d-none-mobile">
         <a href="#" class="rkt-btn rkt-btn-outline-white" download>Download</a>
       </div>
     </nav>

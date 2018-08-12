@@ -1,18 +1,11 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero-extra-large rkt-marginless rkt-page-hero">
+    <section class="rkt-hero rkt-hero-extra-large rkt-marginless">
       <div class="rkt-hero-body">
         <div class="rkt-container">
           <div class="rkt-row">
-            <div class="rkt-col rkt-col-is-three-quarters-desktop rkt-is-tablet">
-              <h1 class="rkt-font-weight-light rkt-marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
-              <div class="rkt-d-flex-tablet rkt-flex-column-mobile rkt-p-y-2 rkt-home-buttons">
-                <nuxt-link to="/docs/getting-started/" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~/assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
-                <a href="#" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-flex-fill-tablet rkt-m-l-1 rkt-marginless-mobile"><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1 rkt-d-none-mobile">save_alt</i></a>
-              </div>
-              <p class="rkt-marginless rkt-text-muted">
-                <small>Version: {{ rocketVersion }}</small>
-              </p>
+            <div class="rkt-col">
+              about
             </div>
             <div class="rkt-col rkt-text-center">
               <img src="~/assets/icons/rocket-colour.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-img-fluid rocket-brand">
@@ -21,9 +14,9 @@
         </div>
       </div>
     </section>
-    <section class="rkt-bg-light rkt-p-y-5 rkt-marginless rkt-home-guide">
+    <section class="rkt-bg-light rkt-p-y-5 rkt-marginless">
       <div class="rkt-container">
-        <div class="rkt-row rkt-is-tablet">
+        <div class="rkt-row">
           <div class="rkt-col">
             <div class="rkt-p-r-2">
               <h2 class="rkt-marginless rkt-font-weight-normal">Installation</h2>
@@ -48,7 +41,7 @@
 export default {
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v0.1.0",
       brand: "Rocket CSS",
       title: "is an open source, lightweight CSS framework built using Flexbox.",
       button: {
