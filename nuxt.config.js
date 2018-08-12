@@ -12,15 +12,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Rocket CSS',
+    title: 'Rocket CSS - simple, lightweight CSS framework built using Flexbox',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The home of the open source lightweight Rocket CSS framework.' }
+      { hid: 'description', name: 'description', content: 'Rocket CSS is an open source, lightweight CSS framework built using Flexbox. Download for FREE today.' }
     ],
     link: [
       { rel: 'icon', type: 'png', href: '/rocket-css/favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' }
     ]
   },
   /*

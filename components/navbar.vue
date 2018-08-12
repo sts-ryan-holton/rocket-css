@@ -21,6 +21,7 @@
         </ul>
       </div>
       <div class="rkt-ml-auto rkt-d-none-mobile">
+        <a href="https://github.com/sts-ryan-holton/rocket-css" class="rkt-btn rkt-btn-outline-white rkt-nav-icon-btn rkt-m-r-1" target="_blank"><i class="fab fa-github"></i></a>
         <a href="#" class="rkt-btn rkt-btn-outline-white" download>Download</a>
       </div>
     </nav>

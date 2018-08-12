@@ -10,6 +10,11 @@
   max-width: 200px;
 }
 
+.feature-icon {
+  max-width: 80px;
+  width: 100%;
+}
+
 .rkt-footer-links {
   ul {
     list-style-type: none;
@@ -49,6 +54,16 @@
 
 .rkt-docs-nav-sidebar {
   background-color: #fbfbfb;
+}
+
+.rkt-nav-icon-btn {
+  width: 38px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-color: transparent;
+  &:hover, &:focus {
+    border-color: transparent;
+  }
 }
 
 @media (max-width: 576px) {
