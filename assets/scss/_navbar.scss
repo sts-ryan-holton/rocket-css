@@ -1,0 +1,79 @@
+.rkt-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+}
+
+.rkt-navbar-light {
+  background-color: $light;
+}
+
+.rkt-navbar-dark {
+  background-color: $dark;
+}
+
+.rkt-navbar-primary {
+  background-color: $primary;
+}
+
+.rkt-navbar-toggle {
+  display: none;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  &:hover {
+    background-color: darken($light, 5%);
+  }
+}
+
+.rkt-navbar-toggle-bar {
+  position: absolute;
+  display: inline-block;
+  top: 14px;
+  left: 12px;
+  height: 1px;
+  width: 16px;
+  background-color: $dark;
+  &:nth-child(2) {
+    top: 19px;
+  }
+  &:nth-child(3) {
+    top: 24px;
+  }
+}
+
+.rkt-navbar-nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rkt-navbar-brand {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: 1.1em;
+  font-size: 1.2em;
+  letter-spacing: .1px;
+}
+
+.rkt-nav-link {
+  padding: .5em .7em;
+  font-size: .85em;
+  letter-spacing: .1px;
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.rkt-nav-link-active {
+  opacity: 1;
+}

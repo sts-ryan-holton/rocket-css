@@ -1,0 +1,115 @@
+[v-cloak] > * { display:none }
+[v-cloak]::before { content: "loading…" }
+
+.rocket-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.rocket-brand {
+  max-width: 200px;
+}
+
+.feature-icon {
+  max-width: 80px;
+  width: 100%;
+}
+
+.rkt-docs-hero {
+  .rkt-col {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+}
+
+.rkt-section-title {
+  .rkt-section-anchor {
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 200;
+    opacity: .8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &:hover {
+    .rkt-section-anchor {
+      display: inline-block;;
+
+    }
+  }
+}
+
+.rkt-footer-links {
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.rkt-docnav-item {
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        font-size: .85em;
+      }
+    }
+  }
+}
+
+.rkt-docs-item {
+  opacity: .75;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.rkt-docs-item-active {
+  opacity: 1;
+  ul {
+    display: block;
+  }
+}
+
+.rkt-docs-nav-sidebar {
+  background-color: #fbfbfb;
+}
+
+.rkt-nav-icon-btn {
+  width: 38px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-color: transparent;
+  &:hover, &:focus {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .rkt-home-buttons {
+    .rkt-btn-primary {
+      margin-bottom: .5em;
+    }
+  }
+
+  .rkt-page-hero {
+    .rkt-hero-body {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  .rkt-home-guide {
+    padding-top: .5em;
+    padding-bottom: 0;
+  }
+
+}

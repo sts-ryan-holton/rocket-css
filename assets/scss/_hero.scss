@@ -1,0 +1,32 @@
+.rkt-hero {
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.rkt-hero-body {
+  flex-grow: 1;
+  padding: $default-hero-size 1em;
+}
+
+.rkt-hero-small {
+  .rkt-hero-body {
+    padding-top: $default-hero-size - 2;
+    padding-bottom: $default-hero-size - 2;
+  }
+}
+
+.rkt-hero-large {
+  .rkt-hero-body {
+    padding-top: $default-hero-size + 2;
+    padding-bottom: $default-hero-size + 2;
+  }
+}
+
+.rkt-hero-extra-large {
+  .rkt-hero-body {
+    padding-top: $default-hero-size + 4;
+    padding-bottom: $default-hero-size + 4;
+  }
+}

@@ -1,0 +1,229 @@
+a {
+  color: $primary;
+  cursor: pointer;
+}
+
+p {
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.rkt-btn {
+  display: inline-block;
+  text-align: center;
+  font-weight: $font-weight-normal;
+  vertical-align: middle;
+  user-select: none;
+  letter-spacing: .15px;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  padding: .7em 1.2em;
+  font-size: .9em;
+  cursor: pointer;
+}
+
+.rkt-btn-rounded {
+  border-radius: 50px;
+}
+
+.rkt-btn-small {
+  padding: .6em .8em;
+  font-size: .8em;
+}
+
+.rkt-btn-medium {
+  padding: .8em 1.6em;
+  font-size: 1em;
+}
+
+.rkt-btn-large {
+  padding: .9em 2em;
+  font-size: 1.1em;
+}
+
+.rkt-btn-block {
+  display: block;
+}
+
+.rkt-btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($primary, 5%);
+    border-color: darken($primary, 5%);
+  }
+}
+
+.rkt-btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($secondary, 5%);
+    border-color: darken($secondary, 5%);
+  }
+}
+
+.rkt-btn-success {
+  background-color: $success;
+  border-color: $success;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($success, 5%);
+    border-color: darken($success, 5%);
+  }
+}
+
+.rkt-btn-warning {
+  background-color: $warning;
+  border-color: $warning;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($warning, 5%);
+    border-color: darken($warning, 5%);
+  }
+}
+
+.rkt-btn-danger {
+  background-color: $danger;
+  border-color: $danger;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($danger, 5%);
+    border-color: darken($danger, 5%);
+  }
+}
+
+.rkt-btn-info {
+  background-color: $info;
+  border-color: $info;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($info, 5%);
+    border-color: darken($info, 5%);
+  }
+}
+
+.rkt-btn-dark {
+  background-color: $dark;
+  border-color: $dark;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($dark, 5%);
+    border-color: darken($dark, 5%);
+  }
+}
+
+.rkt-btn-light {
+  background-color: $light;
+  border-color: $light;
+  color: darken($light, 10%);
+  &:hover, &:focus {
+    background-color: darken($light, 5%);
+    border-color: darken($light, 5%);
+  }
+}
+
+.rkt-btn-white {
+  background-color: $white;
+  border-color: $white;
+  color: $dark;
+  &:hover, &:focus {
+    background-color: darken($white, 5%);
+    border-color: darken($white, 5%);
+  }
+}
+
+.rkt-btn-outline-primary {
+  background-color: transparent;
+  border-color: $primary;
+  color: $primary;
+  &:hover, &:focus {
+    border-color: darken($primary, 5%);
+    color: darken($primary, 5%);
+  }
+}
+
+.rkt-btn-outline-secondary {
+  background-color: transparent;
+  border-color: $secondary;
+  color: $secondary;
+  &:hover, &:focus {
+    border-color: darken($secondary, 5%);
+    color: darken($secondary, 5%);
+  }
+}
+
+.rkt-btn-outline-success {
+  background-color: transparent;
+  border-color: $success;
+  color: $success;
+  &:hover, &:focus {
+    border-color: darken($success, 5%);
+    color: darken($success, 5%);
+  }
+}
+
+.rkt-btn-outline-warning {
+  background-color: transparent;
+  border-color: $warning;
+  color: $warning;
+  &:hover, &:focus {
+    border-color: darken($warning, 5%);
+    color: darken($warning, 5%);
+  }
+}
+
+.rkt-btn-outline-danger {
+  background-color: transparent;
+  border-color: $danger;
+  color: $danger;
+  &:hover, &:focus {
+    border-color: darken($danger, 5%);
+    color: darken($danger, 5%);
+  }
+}
+
+.rkt-btn-outline-info {
+  background-color: transparent;
+  border-color: $info;
+  color: $info;
+  &:hover, &:focus {
+    border-color: darken($info, 5%);
+    color: darken($info, 5%);
+  }
+}
+
+.rkt-btn-outline-dark {
+  background-color: transparent;
+  border-color: $dark;
+  color: $dark;
+  &:hover, &:focus {
+    border-color: darken($dark, 5%);
+    color: darken($dark, 5%);
+  }
+}
+
+.rkt-btn-outline-light {
+  background-color: transparent;
+  border-color: $light;
+  color: darken($light, 10%);
+  &:hover, &:focus {
+    border-color: darken($light, 5%);
+    color: darken($light, 5%);
+  }
+}
+
+.rkt-btn-outline-white {
+  background-color: transparent;
+  border-color: $white;
+  color: $white;
+  &:hover, &:focus {
+    border-color: darken($white, 5%);
+    color: darken($white, 5%);
+  }
+}
