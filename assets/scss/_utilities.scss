@@ -23,6 +23,12 @@ figure.rkt-highlight {
   margin-bottom: 1em;
 }
 
+.rkt-highlight-code {
+  pre {
+    margin-top: 0;
+  }
+}
+
 .w-100 {
   width: 100%;
 }

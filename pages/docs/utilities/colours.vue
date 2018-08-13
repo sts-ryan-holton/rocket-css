@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless">
+    <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless rkt-docs-hero">
       <div class="rkt-hero-body">
         <div class="rkt-container">
           <div class="rkt-row">

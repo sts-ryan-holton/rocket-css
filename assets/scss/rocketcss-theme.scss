@@ -15,6 +15,32 @@
   width: 100%;
 }
 
+.rkt-docs-hero {
+  .rkt-col {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+}
+
+.rkt-section-title {
+  .rkt-section-anchor {
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 200;
+    opacity: .8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &:hover {
+    .rkt-section-anchor {
+      display: inline-block;;
+
+    }
+  }
+}
+
 .rkt-footer-links {
   ul {
     list-style-type: none;

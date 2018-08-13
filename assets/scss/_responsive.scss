@@ -8,7 +8,15 @@
     padding: 0;
   }
 
-  .rkt-row.rkt-is-widescreen,
+  .rkt-row.rkt-is-widescreen {
+    display: block;
+    width: 100%;
+    .rkt-col {
+      display: block;
+      width: 100%;
+    }
+  }
+
   .rkt-is-widescreen {
     display: block;
     width: 100%;
@@ -69,7 +77,15 @@
     padding: 0;
   }
 
-  .rkt-row.rkt-is-desktop,
+  .rkt-row.rkt-is-desktop {
+    display: block;
+    width: 100%;
+    .rkt-col {
+      display: block;
+      width: 100%;
+    }
+  }
+
   .rkt-is-desktop {
     display: block;
     width: 100%;
@@ -130,7 +146,15 @@
     padding: 0;
   }
 
-  .rkt-row.rkt-is-tablet,
+  .rkt-row.rkt-is-tablet {
+    display: block;
+    width: 100%;
+    .rkt-col {
+      display: block;
+      width: 100%;
+    }
+  }
+
   .rkt-is-tablet {
     display: block;
     width: 100%;
@@ -191,7 +215,15 @@
     padding: 0;
   }
 
-  .rkt-row.rkt-is-mobile,
+  .rkt-row.rkt-is-mobile {
+    display: block;
+    width: 100%;
+    .rkt-col {
+      display: block;
+      width: 100%;
+    }
+  }
+
   .rkt-is-mobile {
     display: block;
     width: 100%;
