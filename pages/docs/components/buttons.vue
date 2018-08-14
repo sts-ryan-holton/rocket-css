@@ -33,10 +33,8 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <a href="#" class="rkt-btn rkt-btn-primary rkt-m-r-1">Anchor</a>
-                <button type="button" class="rkt-btn rkt-btn-primary">Button</button>
-              </div>
+              <a href="#" class="rkt-btn rkt-btn-primary rkt-m-r-1">Anchor</a>
+              <button type="button" class="rkt-btn rkt-btn-primary">Button</button>
             </div>
           </div>
         </figure>
@@ -94,18 +92,16 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-m-r-1">Primary</button>
-                <button type="button" class="rkt-btn rkt-btn-secondary rkt-m-r-1">Secondary</button>
-                <button type="button" class="rkt-btn rkt-btn-success rkt-m-r-1">Success</button>
-                <button type="button" class="rkt-btn rkt-btn-warning rkt-m-r-1">Warning</button>
-                <button type="button" class="rkt-btn rkt-btn-danger rkt-m-r-1">Danger</button>
-                <button type="button" class="rkt-btn rkt-btn-info rkt-m-r-1">Info</button>
-                <button type="button" class="rkt-btn rkt-btn-dark rkt-m-r-1">Dark</button>
-                <button type="button" class="rkt-btn rkt-btn-light rkt-m-r-1">Light</button>
-                <button type="button" class="rkt-btn rkt-btn-black rkt-m-r-1">Black</button>
-                <button type="button" class="rkt-btn rkt-btn-white rkt-m-r-1">White</button>
-              </div>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-m-r-1">Primary</button>
+              <button type="button" class="rkt-btn rkt-btn-secondary rkt-m-r-1">Secondary</button>
+              <button type="button" class="rkt-btn rkt-btn-success rkt-m-r-1">Success</button>
+              <button type="button" class="rkt-btn rkt-btn-warning rkt-m-r-1">Warning</button>
+              <button type="button" class="rkt-btn rkt-btn-danger rkt-m-r-1">Danger</button>
+              <button type="button" class="rkt-btn rkt-btn-info rkt-m-r-1">Info</button>
+              <button type="button" class="rkt-btn rkt-btn-dark rkt-m-r-1">Dark</button>
+              <button type="button" class="rkt-btn rkt-btn-light rkt-m-r-1">Light</button>
+              <button type="button" class="rkt-btn rkt-btn-black rkt-m-r-1">Black</button>
+              <button type="button" class="rkt-btn rkt-btn-white rkt-m-r-1">White</button>
             </div>
           </div>
         </figure>
@@ -179,18 +175,16 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <button type="button" class="rkt-btn rkt-btn-outline-primary rkt-m-r-1">Primary</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-secondary rkt-m-r-1">Secondary</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-success rkt-m-r-1">Success</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-warning rkt-m-r-1">Warning</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-danger rkt-m-r-1">Danger</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-info rkt-m-r-1">Info</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-dark rkt-m-r-1">Dark</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-light rkt-m-r-1">Light</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-black rkt-m-r-1">Black</button>
-                <button type="button" class="rkt-btn rkt-btn-outline-white">White</button>
-              </div>
+              <button type="button" class="rkt-btn rkt-btn-outline-primary rkt-m-r-1">Primary</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-secondary rkt-m-r-1">Secondary</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-success rkt-m-r-1">Success</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-warning rkt-m-r-1">Warning</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-danger rkt-m-r-1">Danger</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-info rkt-m-r-1">Info</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-dark rkt-m-r-1">Dark</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-light rkt-m-r-1">Light</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-black rkt-m-r-1">Black</button>
+              <button type="button" class="rkt-btn rkt-btn-outline-white">White</button>
             </div>
           </div>
         </figure>
@@ -243,12 +237,10 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-small rkt-m-r-1">Small</button>
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-m-r-1">Default</button>
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-medium rkt-m-r-1">Medium</button>
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-large">Large</button>
-              </div>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-small rkt-m-r-1">Small</button>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-m-r-1">Default</button>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-medium rkt-m-r-1">Medium</button>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-large">Large</button>
             </div>
           </div>
         </figure>
@@ -283,9 +275,7 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-rounded">Rounded</button>
-              </div>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-rounded">Rounded</button>
             </div>
           </div>
         </figure>
@@ -314,9 +304,7 @@
         <figure class="rkt-highlight">
           <div class="rkt-row rkt-text-left">
             <div class="rkt-col">
-              <div class="rkt-p-2">
-                <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-block">Block Button</button>
-              </div>
+              <button type="button" class="rkt-btn rkt-btn-primary rkt-btn-block">Block Button</button>
             </div>
           </div>
         </figure>
