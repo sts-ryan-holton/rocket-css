@@ -46,6 +46,7 @@ p {
 
 .rkt-btn-block {
   display: block;
+  width: 100%;
 }
 
 .rkt-btn-primary {
@@ -125,6 +126,16 @@ p {
   &:hover, &:focus {
     background-color: darken($light, 5%);
     border-color: darken($light, 5%);
+  }
+}
+
+.rkt-btn-black {
+  background-color: $black;
+  border-color: $black;
+  color: $white;
+  &:hover, &:focus {
+    background-color: darken($black, 5%);
+    border-color: darken($black, 5%);
   }
 }
 
@@ -215,6 +226,16 @@ p {
   &:hover, &:focus {
     border-color: darken($light, 5%);
     color: darken($light, 5%);
+  }
+}
+
+.rkt-btn-outline-black {
+  background-color: transparent;
+  border-color: $black;
+  color: $black;
+  &:hover, &:focus {
+    border-color: darken($black, 5%);
+    color: darken($black, 5%);
   }
 }
 
