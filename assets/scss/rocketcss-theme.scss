@@ -92,6 +92,16 @@
   }
 }
 
+@media (max-width: 992px) {
+
+  .rkt-highlight-code {
+    pre {
+      overflow-x: auto;
+    }
+  }
+
+}
+
 @media (max-width: 576px) {
 
   .rkt-home-buttons {

@@ -40,7 +40,7 @@
     </div>
     <div class="rkt-row rkt-m-t-2">
       <div class="rkt-col rkt-p-x-2">
-        <h2 id="visibility" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Visibility<a href="#display" class="rkt-section-anchor">#</a></h2>
+        <h2 id="visibility" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Visibility<a href="#visibility" class="rkt-section-anchor">#</a></h2>
         <p class="rkt-text-dark rkt-m-b-0">
           Change the <strong>visibility</strong> property.
         </p>

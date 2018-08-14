@@ -38,14 +38,6 @@
     </div>
     <div class="rkt-row rkt-m-t-2">
       <div class="rkt-col rkt-p-x-2">
-        <h2 class="rkt-font-weight-bold rkt-m-y-0">NPM</h2>
-        <p class="rkt-text-dark rkt-m-b-0">
-          (Coming Soon)
-        </p>
-      </div>
-    </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
         <h2 class="rkt-font-weight-bold rkt-m-y-0">JS</h2>
         <p class="rkt-text-dark rkt-m-b-0">
           Rocket CSS is a pure CSS only framework. We provide basic classes for adding Javascript functionality, but you'll have to build this functionality.

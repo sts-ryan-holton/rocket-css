@@ -11,7 +11,6 @@
       </div>
       <div class="rkt-docnav-item">
         <nuxt-link to="/docs/layout/grid" class="rkt-docs-item rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active">Layout</nuxt-link>
-
         <ul class="rkt-marginless rkt-paddingless">
           <li>
             <nuxt-link to="/docs/layout/grid" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Grid</nuxt-link>
@@ -40,6 +39,9 @@
           </li>
           <li>
             <nuxt-link to="/docs/utilities/helpers" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Helpers</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/docs/utilities/images" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Images</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/docs/utilities/spacing" class="rkt-docs-item rkt-text-secondary rkt-d-block rkt-p-y-1" active-class="rkt-docs-item-active" exact>Spacing</nuxt-link>
