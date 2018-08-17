@@ -2,7 +2,7 @@
   <div>
     <app-nav></app-nav>
     <div class="rkt-container-fluid">
-      <div class="rkt-row">
+      <div class="rkt-row rkt-is-tablet">
         <div class="rkt-col rkt-col-is-one-quarter rkt-docs-nav-sidebar">
           <docs-nav></docs-nav>
         </div>

@@ -28,7 +28,7 @@
             <div class="rkt-p-r-2">
               <h2 class="rkt-marginless rkt-font-weight-normal">Installation</h2>
               <p class="rkt-marginless rkt-p-t-1 rkt-p-b-2 rkt-font-weight-light">
-                Installing Rocket CSS is easy. Simply download the Rocket CSS framework from <a href="https://github.com/sts-ryan-holton/rocket-css/releases" target="_blank">Github</a> or NPM and include Rocket CSS in your project.
+                Installing Rocket CSS is easy. Simply download the Rocket CSS framework from <a href="https://github.com/sts-ryan-holton/rocket-css/releases" target="_blank">Github</a> and include Rocket CSS in your project.
               </p>
             </div>
           </div>
