@@ -8,6 +8,8 @@ Rocket CSS is a small, lightweight CSS-only framework that allows you to quickly
 
 Please visit the Rocket CSS site to get started: https://sts-ryan-holton.github.io/rocket-css/
 
+Download the compiled and minified **rocketcss.css** file from `rocketcss-dist/css/rocketcss.css`
+
 ## Browser Support
 
 Rocket CSS aims to support modern browsers. If you're using an older version than listed below, or your browser isn't listed, there's likely little support for this browser.
