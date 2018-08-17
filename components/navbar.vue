@@ -9,7 +9,7 @@
       </button>
       <div class="rkt-navbar-collapse">
         <ul class="rkt-navbar-nav">
-          <li>
+          <li class="rkt-d-none-mobile">
             <nuxt-link to="/" class="rkt-nav-link rkt-text-white" active-class="rkt-font-weight-bold rkt-nav-link-active" exact>Home</nuxt-link>
           </li>
           <li>
