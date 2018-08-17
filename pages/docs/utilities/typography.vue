@@ -2,7 +2,7 @@
   <div>
     <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless rkt-docs-hero">
       <div class="rkt-hero-body">
-        <div class="rkt-container">
+        <div class="rkt-container-fluid">
           <div class="rkt-row">
             <div class="rkt-col">
               <h1 class="rkt-font-weight-bold rkt-m-y-0">{{ banner.mainTitle }}</h1>
