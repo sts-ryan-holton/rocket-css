@@ -44,7 +44,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v1.0.0",
       banner: {
         mainTitle: "Images",
         description: "Create responsive images with Rocket CSS."

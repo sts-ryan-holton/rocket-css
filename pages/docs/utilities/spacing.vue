@@ -99,7 +99,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v1.0.0",
       banner: {
         mainTitle: "Spacing",
         description: "Take a look at how to quickly add Margin or Padding to your application to space content apart."

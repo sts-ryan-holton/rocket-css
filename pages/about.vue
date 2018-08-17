@@ -78,7 +78,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v1.0.0",
       pageTitle: "About Rocket CSS",
       description: "Learn more about Rocket CSS, how it started and how it aims to be different from other mainstream CSS frameworks.",
       section: {

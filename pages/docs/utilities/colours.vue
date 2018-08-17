@@ -187,7 +187,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v1.0.0",
       banner: {
         mainTitle: "Colour",
         description: "Rocket CSS comes with many useful colour utility classes, use them to quickly add colour to your applications."
