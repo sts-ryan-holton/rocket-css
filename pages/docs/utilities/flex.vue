@@ -53,7 +53,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v0.1.0-Alpha.1",
+      rocketVersion: "v1.0.0",
       banner: {
         mainTitle: "Flex",
         description: "Rocket CSS comes with some basic flexbox classes to use in your project."
