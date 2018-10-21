@@ -1,0 +1,13 @@
+.github
+.editorconfig
+.eslintrc.js
+.gulpfile.js
+nuxt.config.js
+/assets/icons
+/components
+/docs
+/layouts
+/pages
+/static
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md

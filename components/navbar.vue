@@ -22,7 +22,7 @@
       </div>
       <div class="rkt-ml-auto rkt-d-none-mobile">
         <a href="https://github.com/sts-ryan-holton/rocket-css" class="rkt-btn rkt-btn-outline-white rkt-nav-icon-btn rkt-m-r-1" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.0.zip" class="rkt-btn rkt-btn-outline-white" download>Download</a>
+        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.1.zip" class="rkt-btn rkt-btn-outline-white" download>Download</a>
       </div>
     </nav>
   </div>

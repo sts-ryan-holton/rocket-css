@@ -326,7 +326,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       banner: {
         mainTitle: "Buttons",
         description: "Buttons are used everywhere in applications. Use the Rocket CSS buttons component to add navigation to your site."

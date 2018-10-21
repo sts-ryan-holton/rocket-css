@@ -173,7 +173,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       banner: {
         mainTitle: "Hero",
         description: "Use our Hero component in Rocket CSS to add page banners to your website."

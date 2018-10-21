@@ -23,7 +23,7 @@
         <p class="rkt-text-dark rkt-m-b-0">
           Download the <strong>.zip</strong> and use the compiled <strong>rocketcss.css</strong> file located in: <code>rocketcss-dist/css/rocketcss.css</code>
         </p>
-        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.0.zip" class="rkt-btn rkt-btn-outline-primary rkt-btn-medium rkt-m-t-1" download><strong>Download</strong> {{ rocketVersion }}</a>
+        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.1.zip" class="rkt-btn rkt-btn-outline-primary rkt-btn-medium rkt-m-t-1" download><strong>Download</strong> {{ rocketVersion }}</a>
       </div>
     </div>
     <div class="rkt-row rkt-m-t-2">
@@ -67,7 +67,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       banner: {
         mainTitle: "Getting Started",
         description: "Get started with Rocket CSS. Here you\'ll find everything you need to get up and running with this open source, lightweight CSS framework."

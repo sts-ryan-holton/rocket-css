@@ -8,7 +8,7 @@
               <h1 class="rkt-font-weight-light rkt-marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
               <div class="rkt-d-flex-tablet rkt-flex-column-mobile rkt-p-y-2 rkt-home-buttons">
                 <nuxt-link to="/docs" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
-                <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.0.zip" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-flex-fill-tablet rkt-m-l-1 rkt-marginless-mobile" download><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1 rkt-d-none-mobile">save_alt</i></a>
+                <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.1.zip" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-flex-fill-tablet rkt-m-l-1 rkt-marginless-mobile" download><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1 rkt-d-none-mobile">save_alt</i></a>
               </div>
               <p class="rkt-marginless rkt-text-muted">
                 <small>Version: {{ rocketVersion }}</small>
@@ -49,7 +49,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       brand: "Rocket CSS",
       title: "is an open source, lightweight CSS framework built using Flexbox.",
       button: {
