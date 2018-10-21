@@ -2,7 +2,6 @@
   "name": "rocket-css",
   "version": "1.0.1",
   "description": "The home of the open source lightweight Rocket CSS framework.",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
