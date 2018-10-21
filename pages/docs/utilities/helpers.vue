@@ -76,7 +76,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       banner: {
         mainTitle: "Helpers",
         description: "Use these helpers to quickly change your layout and components."

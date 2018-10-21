@@ -1,8 +1,7 @@
 {
   "name": "rocket-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The home of the open source lightweight Rocket CSS framework.",
-  "author": "Ryan Holton",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -12,12 +11,28 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sts-ryan-holton/rocket-css"
+  },
+  "keywords": [
+    "rocket css",
+    "css",
+    "css framework",
+    "flexbox framework"
+  ],
+  "author": "Ryan Holton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sts-ryan-holton/rocket-css/issues"
+  },
+  "homepage": "https://sts-ryan-holton.github.io/rocket-css/",
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "2.2.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",

@@ -377,7 +377,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.0",
+      rocketVersion: "v1.0.1",
       banner: {
         mainTitle: "Grid",
         description: "Use the simple Rocket CSS grid to quickly build applications."
