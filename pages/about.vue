@@ -39,21 +39,21 @@
                 <p class="rkt-font-weight-light">
                   <small>All our components are lightweight.</small>
                 </p>
-                <img src="~/assets/icons/lightweight.svg" alt="Rocket CSS - Lightweight components" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/lightweight.svg" alt="Rocket CSS - Lightweight components" class="rkt-img-fluid feature-icon">
               </div>
               <div class="rkt-col">
                 <h4 class="rkt-marginless">Pure CSS / No JS</h4>
                 <p class="rkt-font-weight-light">
                   <small>A CSS only framework.</small>
                 </p>
-                <img src="~/assets/icons/css.svg" alt="Rocket CSS - CSS only, no JS" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/css.svg" alt="Rocket CSS - CSS only, no JS" class="rkt-img-fluid feature-icon">
               </div>
               <div class="rkt-col">
                 <h4 class="rkt-marginless">Built with Flexbox</h4>
                 <p class="rkt-font-weight-light">
                   <small>No more static layouts.</small>
                 </p>
-                <img src="~/assets/icons/flexbox.svg" alt="Rocket CSS - Flexbox CSS framework" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/flexbox.svg" alt="Rocket CSS - Flexbox CSS framework" class="rkt-img-fluid feature-icon">
               </div>
             </div>
           </div>

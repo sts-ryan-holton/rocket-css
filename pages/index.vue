@@ -7,7 +7,7 @@
             <div class="rkt-col rkt-col-is-three-quarters-desktop rkt-is-tablet">
               <h1 class="rkt-font-weight-light rkt-marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
               <div class="rkt-d-flex-tablet rkt-flex-column-mobile rkt-p-y-2 rkt-home-buttons">
-                <nuxt-link to="/docs" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~/assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
+                <nuxt-link to="/docs" class="rkt-btn rkt-btn-primary rkt-btn-large rkt-flex-fill-tablet">{{ button.one.text }}<img src="~assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-m-l-1 rkt-align-middle rocket-icon rkt-d-none-mobile"></nuxt-link>
                 <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.0.0.zip" class="rkt-btn rkt-btn-outline-primary rkt-btn-large rkt-flex-fill-tablet rkt-m-l-1 rkt-marginless-mobile" download><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons rkt-align-text-bottom rkt-m-l-1 rkt-d-none-mobile">save_alt</i></a>
               </div>
               <p class="rkt-marginless rkt-text-muted">
@@ -15,7 +15,7 @@
               </p>
             </div>
             <div class="rkt-col rkt-text-center">
-              <img src="~/assets/icons/rocket-colour.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-img-fluid rocket-brand">
+              <img src="~assets/icons/rocket-colour.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="rkt-img-fluid rocket-brand">
             </div>
           </div>
         </div>
