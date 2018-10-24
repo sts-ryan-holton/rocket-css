@@ -26,9 +26,22 @@
         <div class="row is-tablet">
           <div class="col">
             <div class="p-r-2">
-              <h2 class="marginless font-weight-normal">Installation</h2>
+              <h2 class="marginless font-weight-normal">Install through NPM</h2>
+              <p class="marginless p-t-1 p-b-1 font-weight-light">
+                You can install <strong>Rocket CSS</strong> using <a href="https://www.npmjs.com/package/rocket-css" target="_blank">NPM</a> by running:
+              </p>
+              <figure class="m-0">
+                <code>
+                  npm install rocket-css --save
+                </code>
+              </figure>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-r-2">
+              <h2 class="marginless font-weight-normal">Install by downloading</h2>
               <p class="marginless p-t-1 p-b-2 font-weight-light">
-                Installing Rocket CSS is easy. Simply download the Rocket CSS framework from <a href="https://github.com/sts-ryan-holton/rocket-css/releases" target="_blank">Github</a> and include Rocket CSS in your project.
+                Download our .zip from our getting started section. <nuxt-link to="/docs#css">See our Getting Started CSS section.</nuxt-link>
               </p>
             </div>
           </div>

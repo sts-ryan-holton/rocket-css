@@ -84,7 +84,7 @@ export default {
       section: {
         one: {
           title: "How <strong>Rocket CSS</strong> is different",
-          text: "Rocket CSS is a small, lightweight CSS-only framework that allows you to quickly build web applications without the hassle of remembering 1,000s of classes. Unlike other CSS frameworks like Twitter Bootstrap, Rocket CSS comes with a handful of simple components which are all prefixed with the class <code>.</code> which makes it easier to integrate Rocket CSS into an existing site."
+          text: "Rocket CSS is a small, lightweight CSS-only framework that allows you to quickly build web applications without the hassle of remembering 1,000s of classes. Unlike other CSS frameworks like Twitter Bootstrap, Rocket CSS comes with a handful of simple components which makes it easier to integrate Rocket CSS into an existing site."
         },
         two: {
           title: "<strong>Rocket CSS</strong> features"

@@ -16,7 +16,7 @@
     </section>
     <div class="row m-t-2">
       <div class="col p-x-2">
-        <h2 class="font-weight-bold m-y-0">NPM</h2>
+        <h2 id="npm" class="font-weight-bold m-y-0 section-title">NPM<a href="#npm" class="section-anchor">#</a></h2>
         <p class="text-dark m-b-0">
           Get up and running with Rocket CSS by installing through NPM.
         </p>
@@ -29,7 +29,7 @@
     </div>
     <div class="row m-t-2">
       <div class="col p-x-2">
-        <h2 class="font-weight-bold m-y-0">CSS</h2>
+        <h2 id="css" class="font-weight-bold m-y-0 section-title">CSS<a href="#css" class="section-anchor">#</a></h2>
         <p class="text-dark m-b-0">
           The easiest way to get up and running with Rocket CSS is to download Rocket CSS and include either our minified, or non-minified version of Rocket CSS.
         </p>
@@ -54,7 +54,7 @@
     </div>
     <div class="row m-t-2">
       <div class="col p-x-2">
-        <h2 class="font-weight-bold m-y-0">JS</h2>
+        <h2 id="js" class="font-weight-bold m-y-0 section-title">JS<a href="#js" class="section-anchor">#</a></h2>
         <p class="text-dark m-b-0">
           Rocket CSS is a pure CSS only framework. We provide basic classes for adding Javascript functionality, but you'll have to build this functionality.
         </p>
@@ -62,7 +62,7 @@
     </div>
     <div class="row m-t-2">
       <div class="col p-x-2">
-        <h2 class="font-weight-bold m-y-0">Community</h2>
+        <h2 id="community" class="font-weight-bold m-y-0 section-title">Community<a href="#community" class="section-anchor">#</a></h2>
         <p class="text-dark m-b-0">
           New feature idea? Or found a bug? Rocket CSS is community focused, we rely on the community to help build this framework, so if you find something, feel free to open a <a href="https://github.com/sts-ryan-holton/rocket-css/issues/new" target="_blank">Github issue.</a>
         </p>
