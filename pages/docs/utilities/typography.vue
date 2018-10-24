@@ -113,7 +113,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.1",
+      rocketVersion: "v1.1.0",
       banner: {
         mainTitle: "Typography",
         description: "Use our quick and easy typography helpers in Rocket CSS for changing different aspects of typography."
