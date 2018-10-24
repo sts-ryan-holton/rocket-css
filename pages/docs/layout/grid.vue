@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless rkt-docs-hero">
-      <div class="rkt-hero-body">
-        <div class="rkt-container-fluid">
-          <div class="rkt-row">
-            <div class="rkt-col">
-              <h1 class="rkt-font-weight-bold rkt-m-y-0">{{ banner.mainTitle }}</h1>
-              <p class="rkt-lead rkt-text-muted rkt-m-b-0">
+    <section class="hero hero hero-small marginless docs-hero">
+      <div class="hero-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h1 class="font-weight-bold m-y-0">{{ banner.mainTitle }}</h1>
+              <p class="lead text-muted m-b-0">
                 {{ banner.description }}
               </p>
             </div>
@@ -14,64 +14,64 @@
         </div>
       </div>
     </section>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="basics" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Basics<a href="#basics" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="basics" class="font-weight-bold m-y-0 section-title">Basics<a href="#basics" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Getting started with the Rocket CSS grid is easy. Follow these simple steps:
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            1. Add a <code>.rkt-row</code> wrapper.
+            1. Add a <code>.row</code> wrapper.
           </li>
           <li>
-            2. Add a <code>.rkt-col</code> column.
+            2. Add a <code>.col</code> column.
           </li>
         </ul>
-        <p class="rkt-text-dark rkt-m-b-0">
+        <p class="text-dark m-b-0">
           Each <strong>column</strong> will have an equal size regardless of the number of columns.
         </p>
 
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center">
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+        <figure class="highlight">
+          <div class="row text-center">
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
           </div>
         </figure>
         <!-- /Example -->
-<figure class="rkt-highlight rkt-highlight-code">
+<figure class="highlight highlight-code">
 <pre><code>
-  &lt;div class="rkt-row"&gt;
-    &lt;div class="rkt-col"&gt;
-      .rkt-col
+  &lt;div class="row"&gt;
+    &lt;div class="col"&gt;
+      .col
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
-      .rkt-col
+    &lt;div class="col"&gt;
+      .col
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
-      .rkt-col
+    &lt;div class="col"&gt;
+      .col
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
-      .rkt-col
+    &lt;div class="col"&gt;
+      .col
     &lt;/div&gt;
   &lt;/div&gt;
 </code></pre>
@@ -79,113 +79,113 @@
 
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="sizes" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Sizes<a href="#sizes" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
-          You can change the size of a <strong>column</strong> by adding one of these classes to a <code>.rkt-col</code> column
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="sizes" class="font-weight-bold m-y-0 section-title">Sizes<a href="#sizes" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
+          You can change the size of a <strong>column</strong> by adding one of these classes to a <code>.col</code> column
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-col-is-one-quarter</code>
+            - <code>.col-is-one-quarter</code>
           </li>
           <li>
-            - <code>.rkt-col-is-half</code>
+            - <code>.col-is-half</code>
           </li>
           <li>
-            - <code>.rkt-col-is-three-quarters</code>
+            - <code>.col-is-three-quarters</code>
           </li>
         </ul>
 
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center rkt-is-widescreen">
-            <div class="rkt-col rkt-col-is-three-quarters">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col-is-three-quarters
+        <figure class="highlight">
+          <div class="row text-center is-widescreen">
+            <div class="col col-is-three-quarters">
+              <div class="bg-primary p-2 text-white">
+                .col-is-three-quarters
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
                 Auto
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
-                Auto
-              </div>
-            </div>
-          </div>
-          <div class="rkt-row rkt-text-center rkt-is-widescreen">
-            <div class="rkt-col rkt-col-is-half">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col-is-half
-              </div>
-            </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
-                Auto
-              </div>
-            </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
                 Auto
               </div>
             </div>
           </div>
-          <div class="rkt-row rkt-text-center rkt-is-widescreen">
-            <div class="rkt-col rkt-col-is-one-quarter">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col-is-one-quarter
+          <div class="row text-center is-widescreen">
+            <div class="col col-is-half">
+              <div class="bg-primary p-2 text-white">
+                .col-is-half
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
                 Auto
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
+                Auto
+              </div>
+            </div>
+          </div>
+          <div class="row text-center is-widescreen">
+            <div class="col col-is-one-quarter">
+              <div class="bg-primary p-2 text-white">
+                .col-is-one-quarter
+              </div>
+            </div>
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
+                Auto
+              </div>
+            </div>
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
                 Auto
               </div>
             </div>
           </div>
         </figure>
         <!-- /Example -->
-<figure class="rkt-highlight rkt-highlight-code">
+<figure class="highlight highlight-code">
 <pre><code>
-  &lt;div class="rkt-row"&gt;
-    &lt;div class="rkt-col <strong>rkt-col-is-three-quarters</strong>"&gt;
-      .rkt-col-is-three-quarters
+  &lt;div class="row"&gt;
+    &lt;div class="col <strong>col-is-three-quarters</strong>"&gt;
+      .col-is-three-quarters
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
+    &lt;div class="col"&gt;
       Auto
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
-      Auto
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class="rkt-row"&gt;
-    &lt;div class="rkt-col <strong>rkt-col-is-half</strong>"&gt;
-      .rkt-col-is-half
-    &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
-      Auto
-    &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
+    &lt;div class="col"&gt;
       Auto
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class="rkt-row"&gt;
-    &lt;div class="rkt-col <strong>rkt-col-is-one-quarter</strong>"&gt;
-      .rkt-col-is-one-quarter
+  &lt;div class="row"&gt;
+    &lt;div class="col <strong>col-is-half</strong>"&gt;
+      .col-is-half
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
+    &lt;div class="col"&gt;
       Auto
     &lt;/div&gt;
-    &lt;div class="rkt-col"&gt;
+    &lt;div class="col"&gt;
+      Auto
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="row"&gt;
+    &lt;div class="col <strong>col-is-one-quarter</strong>"&gt;
+      .col-is-one-quarter
+    &lt;/div&gt;
+    &lt;div class="col"&gt;
+      Auto
+    &lt;/div&gt;
+    &lt;div class="col"&gt;
       Auto
     &lt;/div&gt;
   &lt;/div&gt;
@@ -193,124 +193,124 @@
 </figure>
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="responsiveness" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Responsiveness<a href="#responsiveness" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
-          By default, <strong>columns</strong> will naturally wrap based on the viewport and content inside each column. If you'd like to make all columns <strong>stacked</strong> on different viewports, simply add one of the following classes to a <code>.rkt-row</code>
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="responsiveness" class="font-weight-bold m-y-0 section-title">Responsiveness<a href="#responsiveness" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
+          By default, <strong>columns</strong> will naturally wrap based on the viewport and content inside each column. If you'd like to make all columns <strong>stacked</strong> on different viewports, simply add one of the following classes to a <code>.row</code>
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-is-widescreen</code>
+            - <code>.is-widescreen</code>
           </li>
           <li>
-            - <code>.rkt-is-desktop</code>
+            - <code>.is-desktop</code>
           </li>
           <li>
-            - <code>.rkt-is-tablet</code>
+            - <code>.is-tablet</code>
           </li>
           <li>
-            - <code>.rkt-is-mobile</code>
+            - <code>.is-mobile</code>
           </li>
         </ul>
-        <p class="rkt-text-dark">
-          Adding one of the above classes to a <code>.rkt-row</code> will make all child <code>.rkt-col</code> columns be stacked on that particular viewport and down.
+        <p class="text-dark">
+          Adding one of the above classes to a <code>.row</code> will make all child <code>.col</code> columns be stacked on that particular viewport and down.
         </p>
-        <h3 id="responsiveness-widescreen" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Widescreen<a href="#responsiveness-widescreen" class="rkt-section-anchor">#</a></h3>
-        <p class="rkt-text-dark">
+        <h3 id="responsiveness-widescreen" class="font-weight-bold m-y-0 section-title">Widescreen<a href="#responsiveness-widescreen" class="section-anchor">#</a></h3>
+        <p class="text-dark">
           Resize your browser to see the <strong>columns</strong> stack on the <strong>widescreen</strong> class.
         </p>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center rkt-is-widescreen">
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+        <figure class="highlight">
+          <div class="row text-center is-widescreen">
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
           </div>
         </figure>
         <!-- /Example -->
-        <h3 id="responsiveness-desktop" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Desktop<a href="#responsiveness-desktop" class="rkt-section-anchor">#</a></h3>
-        <p class="rkt-text-dark">
+        <h3 id="responsiveness-desktop" class="font-weight-bold m-y-0 section-title">Desktop<a href="#responsiveness-desktop" class="section-anchor">#</a></h3>
+        <p class="text-dark">
           Resize your browser to see the <strong>columns</strong> stack on the <strong>desktop</strong> class.
         </p>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center rkt-is-desktop">
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+        <figure class="highlight">
+          <div class="row text-center is-desktop">
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
           </div>
         </figure>
         <!-- /Example -->
-        <h3 id="responsiveness-tablet" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Tablet<a href="#responsiveness-tablet" class="rkt-section-anchor">#</a></h3>
-        <p class="rkt-text-dark">
+        <h3 id="responsiveness-tablet" class="font-weight-bold m-y-0 section-title">Tablet<a href="#responsiveness-tablet" class="section-anchor">#</a></h3>
+        <p class="text-dark">
           Resize your browser to see the <strong>columns</strong> stack on the <strong>tablet</strong> class.
         </p>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center rkt-is-tablet">
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+        <figure class="highlight">
+          <div class="row text-center is-tablet">
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
           </div>
         </figure>
         <!-- /Example -->
-        <h3 id="responsiveness-mobile" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Mobile<a href="#responsiveness-mobile" class="rkt-section-anchor">#</a></h3>
-        <p class="rkt-text-dark">
+        <h3 id="responsiveness-mobile" class="font-weight-bold m-y-0 section-title">Mobile<a href="#responsiveness-mobile" class="section-anchor">#</a></h3>
+        <p class="text-dark">
           Resize your browser to see the <strong>columns</strong> stack on the <strong>mobile</strong> class.
         </p>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-center rkt-is-mobile">
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+        <figure class="highlight">
+          <div class="row text-center is-mobile">
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-primary p-2 text-white">
+                .col
               </div>
             </div>
           </div>
@@ -318,49 +318,49 @@
         <!-- /Example -->
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="responsiveness-viewports" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Different column sizes per viewport<a href="#responsiveness-viewports" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="responsiveness-viewports" class="font-weight-bold m-y-0 section-title">Different column sizes per viewport<a href="#responsiveness-viewports" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           As well as using the basic classes for stacking columns, you can also change column sizes and utilise the same responsiveness classes at the same time. Simply add one of the viewport sizes, e.g: <code>desktop</code> to the end of a particular column size. Example below:
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-col-is-three-quarters<strong>-widescreen</strong></code>
+            - <code>.col-is-three-quarters<strong>-widescreen</strong></code>
           </li>
           <li>
-            - <code>.rkt-col-is-three-quarters<strong>-desktop</strong></code>
+            - <code>.col-is-three-quarters<strong>-desktop</strong></code>
           </li>
           <li>
-            - <code>.rkt-col-is-half<strong>-tablet</strong></code>
+            - <code>.col-is-half<strong>-tablet</strong></code>
           </li>
           <li>
-            - <code>.rkt-col-is-half<strong>-mobile</strong></code>
+            - <code>.col-is-half<strong>-mobile</strong></code>
           </li>
         </ul>
-        <p class="rkt-text-dark">
+        <p class="text-dark">
 
         </p>
-        <h3 id="responsiveness-columns-widescreen" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Half Column: Widescreen<a href="#responsiveness-columns-widescreen" class="rkt-section-anchor">#</a></h3>
-        <p class="rkt-text-dark">
+        <h3 id="responsiveness-columns-widescreen" class="font-weight-bold m-y-0 section-title">Half Column: Widescreen<a href="#responsiveness-columns-widescreen" class="section-anchor">#</a></h3>
+        <p class="text-dark">
           Resize your browser to see the <strong>columns</strong> stack on the <strong>widescreen</strong> class.
         </p>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-is-tablet rkt-text-center">
-            <div class="rkt-col rkt-col-is-half-widescreen">
-              <div class="rkt-bg-primary rkt-p-2 rkt-text-white">
-                .rkt-col-is-half-widescreen
+        <figure class="highlight">
+          <div class="row is-tablet text-center">
+            <div class="col col-is-half-widescreen">
+              <div class="bg-primary p-2 text-white">
+                .col-is-half-widescreen
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
+                .col
               </div>
             </div>
-            <div class="rkt-col">
-              <div class="rkt-bg-secondary rkt-p-2 rkt-text-white">
-                .rkt-col
+            <div class="col">
+              <div class="bg-secondary p-2 text-white">
+                .col
               </div>
             </div>
           </div>

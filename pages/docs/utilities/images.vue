@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless rkt-docs-hero">
-      <div class="rkt-hero-body">
-        <div class="rkt-container-fluid">
-          <div class="rkt-row">
-            <div class="rkt-col">
-              <h1 class="rkt-font-weight-bold rkt-m-y-0">{{ banner.mainTitle }}</h1>
-              <p class="rkt-lead rkt-text-muted rkt-m-b-0">
+    <section class="hero hero hero-small marginless docs-hero">
+      <div class="hero-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h1 class="font-weight-bold m-y-0">{{ banner.mainTitle }}</h1>
+              <p class="lead text-muted m-b-0">
                 {{ banner.description }}
               </p>
             </div>
@@ -14,23 +14,23 @@
         </div>
       </div>
     </section>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="basics" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Basics<a href="#basics" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="basics" class="font-weight-bold m-y-0 section-title">Basics<a href="#basics" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Rocket CSS makes it super simple to create <strong>responsive images.</strong>
         </p>
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="responsive-images" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Responsive Images<a href="#responsive-images" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="responsive-images" class="font-weight-bold m-y-0 section-title">Responsive Images<a href="#responsive-images" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Create responsive images by adding the following class to an <strong>image.</strong>
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-img-fluid</code> to create a responsive image.
+            - <code>.img-fluid</code> to create a responsive image.
           </li>
         </ul>
       </div>

@@ -1,12 +1,12 @@
 <template>
   <div>
     <app-nav></app-nav>
-    <div class="rkt-container-fluid">
-      <div class="rkt-row rkt-is-tablet">
-        <div class="rkt-col rkt-col-is-one-quarter rkt-docs-nav-sidebar">
+    <div class="container-fluid">
+      <div class="row is-tablet">
+        <div class="col col-is-one-quarter docs-nav-sidebar">
           <docs-nav></docs-nav>
         </div>
-        <div class="rkt-col">
+        <div class="col">
           <nuxt/>
         </div>
       </div>

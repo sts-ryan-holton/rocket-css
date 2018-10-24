@@ -1,67 +1,67 @@
 @media (max-width: $widescreen) {
 
-  .rkt-marginless-widescreen {
+  .marginless-widescreen {
     margin: 0;
   }
 
-  .rkt-paddingless-widescreen {
+  .paddingless-widescreen {
     padding: 0;
   }
 
-  .rkt-row.rkt-is-widescreen {
+  .row.is-widescreen {
     display: block;
     width: 100%;
-    .rkt-col {
+    .col {
       display: block;
       width: 100%;
     }
   }
 
-  .rkt-is-widescreen {
+  .is-widescreen {
     display: block;
     width: 100%;
   }
 
-  .rkt-col-is-one-quarter-widescreen {
+  .col-is-one-quarter-widescreen {
     flex: none;
     width: 25%;
   }
 
-  .rkt-col-is-half-widescreen {
+  .col-is-half-widescreen {
     flex: none;
     width: 50%;
   }
 
-  .rkt-col-is-is-three-quarters-widescreen {
+  .col-is-is-three-quarters-widescreen {
     flex: none;
     width: 75%;
   }
 
-  .rkt-d-flex-widescreen {
+  .d-flex-widescreen {
     display: flex;
   }
 
-  .rkt-flex-row-widescreen {
+  .flex-row-widescreen {
     flex-direction: row;
   }
 
-  .rkt-flex-column-widescreen {
+  .flex-column-widescreen {
     flex-direction: column;
   }
 
-  .rkt-flex-fill-widescreen {
+  .flex-fill-widescreen {
     flex: 1 1 auto;
   }
 
-  .rkt-d-none-widescreen {
+  .d-none-widescreen {
     display: none;
   }
 
-  .rkt-d-block-widescreen {
+  .d-block-widescreen {
     display: block;
   }
 
-  .rkt-d-inline-block-widescreen {
+  .d-inline-block-widescreen {
     display: inline-block;
   }
 
@@ -69,68 +69,68 @@
 
 @media (max-width: $desktop) {
 
-  .rkt-marginless-desktop {
+  .marginless-desktop {
     margin: 0;
   }
 
-  .rkt-paddingless-desktop {
+  .paddingless-desktop {
     padding: 0;
   }
 
-  .rkt-row.rkt-is-desktop {
+  .row.is-desktop {
     display: block;
     width: 100%;
-    .rkt-col {
+    .col {
       display: block;
       width: 100%;
     }
   }
 
-  .rkt-is-desktop {
+  .is-desktop {
     display: block;
     width: 100%;
   }
 
-  .rkt-col-is-one-quarter-desktop {
+  .col-is-one-quarter-desktop {
     flex: none;
     width: 25%;
   }
 
-  .rkt-col-is-half-desktop {
+  .col-is-half-desktop {
     flex: none;
     width: 50%;
   }
 
-  .rkt-col-is-three-quarters-desktop {
+  .col-is-three-quarters-desktop {
     flex: none;
     width: 75%;
   }
 
-  .rkt-d-flex-desktop {
+  .d-flex-desktop {
     display: flex;
   }
 
-  .rkt-flex-row-desktop {
+  .flex-row-desktop {
     flex-direction: row;
   }
 
-  .rkt-flex-column-desktop {
+  .flex-column-desktop {
     flex-direction: column;
   }
 
-  .rkt-flex-fill-desktop {
+  .flex-fill-desktop {
     flex: 1 1 auto;
   }
 
-  .rkt-d-none-desktop {
+  .d-none-desktop {
     display: none;
   }
 
-  .rkt-d-block-desktop {
+  .d-block-desktop {
     display: block;
   }
 
-  .rkt-d-inline-block-desktop {
+  .d-inline-block-desktop {
     display: inline-block;
   }
 
@@ -138,68 +138,68 @@
 
 @media (max-width: $tablet) {
 
-  .rkt-marginless-tablet {
+  .marginless-tablet {
     margin: 0;
   }
 
-  .rkt-paddingless-tablet {
+  .paddingless-tablet {
     padding: 0;
   }
 
-  .rkt-row.rkt-is-tablet {
+  .row.is-tablet {
     display: block;
     width: 100%;
-    .rkt-col {
+    .col {
       display: block;
       width: 100%;
     }
   }
 
-  .rkt-is-tablet {
+  .is-tablet {
     display: block;
     width: 100%;
   }
 
-  .rkt-col-is-one-quarter-tablet {
+  .col-is-one-quarter-tablet {
     flex: none;
     width: 25%;
   }
 
-  .rkt-col-is-half-tablet {
+  .col-is-half-tablet {
     flex: none;
     width: 50%;
   }
 
-  .rkt-col-is-three-quarters-tablet {
+  .col-is-three-quarters-tablet {
     flex: none;
     width: 75%;
   }
 
-  .rkt-d-flex-tablet {
+  .d-flex-tablet {
     display: flex;
   }
 
-  .rkt-flex-row-tablet {
+  .flex-row-tablet {
     flex-direction: row;
   }
 
-  .rkt-flex-column-tablet {
+  .flex-column-tablet {
     flex-direction: column;
   }
 
-  .rkt-flex-fill-tablet {
+  .flex-fill-tablet {
     flex: 1 1 auto;
   }
 
-  .rkt-d-none-tablet {
+  .d-none-tablet {
     display: none;
   }
 
-  .rkt-d-block-tablet {
+  .d-block-tablet {
     display: block;
   }
 
-  .rkt-d-inline-block-tablet {
+  .d-inline-block-tablet {
     display: inline-block;
   }
 
@@ -207,68 +207,68 @@
 
 @media (max-width: $mobile) {
 
-  .rkt-marginless-mobile {
+  .marginless-mobile {
     margin: 0;
   }
 
-  .rkt-paddingless-mobile {
+  .paddingless-mobile {
     padding: 0;
   }
 
-  .rkt-row.rkt-is-mobile {
+  .row.is-mobile {
     display: block;
     width: 100%;
-    .rkt-col {
+    .col {
       display: block;
       width: 100%;
     }
   }
 
-  .rkt-is-mobile {
+  .is-mobile {
     display: block;
     width: 100%;
   }
 
-  .rkt-col-is-one-quarter-mobile {
+  .col-is-one-quarter-mobile {
     flex: none;
     width: 25%;
   }
 
-  .rkt-col-is-half-mobile {
+  .col-is-half-mobile {
     flex: none;
     width: 50%;
   }
 
-  .rkt-col-is-three-quarters-mobile {
+  .col-is-three-quarters-mobile {
     flex: none;
     width: 75%;
   }
 
-  .rkt-d-flex-mobile {
+  .d-flex-mobile {
     display: flex;
   }
 
-  .rkt-flex-row-mobile {
+  .flex-row-mobile {
     flex-direction: row;
   }
 
-  .rkt-flex-column-mobile {
+  .flex-column-mobile {
     flex-direction: column;
   }
 
-  .rkt-flex-fill-mobile {
+  .flex-fill-mobile {
     flex: 1 1 auto;
   }
 
-  .rkt-d-none-mobile {
+  .d-none-mobile {
     display: none;
   }
 
-  .rkt-d-block-mobile {
+  .d-block-mobile {
     display: block;
   }
 
-  .rkt-d-inline-block-mobile {
+  .d-inline-block-mobile {
     display: inline-block;
   }
 

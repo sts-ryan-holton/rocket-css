@@ -1,40 +1,40 @@
-.rkt-container {
+.container {
   max-width: $container-width;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.rkt-container-fluid {
+.container-fluid {
   max-width: 100%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.rkt-row {
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.rkt-col {
+.col {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
   padding: .75rem;
 }
 
-.rkt-col-is-one-quarter {
+.col-is-one-quarter {
   flex: none;
   width: 25%;
 }
 
-.rkt-col-is-half {
+.col-is-half {
   flex: none;
   width: 50%;
 }
 
-.rkt-col-is-three-quarters {
+.col-is-three-quarters {
   flex: none;
   width: 75%;
 }

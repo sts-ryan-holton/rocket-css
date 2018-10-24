@@ -1,23 +1,23 @@
-.rkt-navbar {
+.navbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: .9375rem;
 }
 
-.rkt-navbar-light {
+.navbar-light {
   background-color: $light;
 }
 
-.rkt-navbar-dark {
+.navbar-dark {
   background-color: $dark;
 }
 
-.rkt-navbar-primary {
+.navbar-primary {
   background-color: $primary;
 }
 
-.rkt-navbar-toggle {
+.navbar-toggle {
   display: none;
   position: relative;
   height: 2.5rem;
@@ -32,7 +32,7 @@
   }
 }
 
-.rkt-navbar-toggle-bar {
+.navbar-toggle-bar {
   position: absolute;
   display: inline-block;
   top: .875rem;
@@ -48,7 +48,7 @@
   }
 }
 
-.rkt-navbar-nav {
+.navbar-nav {
   display: flex;
   list-style-type: none;
   padding-left: 0;
@@ -56,7 +56,7 @@
   margin-bottom: 0;
 }
 
-.rkt-navbar-brand {
+.navbar-brand {
   padding-top: .5em;
   padding-bottom: .5em;
   padding-right: 1.1em;
@@ -64,7 +64,7 @@
   letter-spacing: .006rem;
 }
 
-.rkt-nav-link {
+.nav-link {
   padding: .5em .7em;
   font-size: .85em;
   letter-spacing: .006rem;
@@ -74,6 +74,6 @@
   }
 }
 
-.rkt-nav-link-active {
+.nav-link-active {
   opacity: 1;
 }

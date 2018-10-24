@@ -11,7 +11,7 @@ p {
   }
 }
 
-.rkt-btn {
+.btn {
   display: inline-block;
   text-align: center;
   font-weight: $font-weight-normal;
@@ -25,31 +25,31 @@ p {
   cursor: pointer;
 }
 
-.rkt-btn-rounded {
+.btn-rounded {
   border-radius: 3.125rem;
 }
 
-.rkt-btn-small {
+.btn-small {
   padding: .6rem .8rem;
   font-size: .8rem;
 }
 
-.rkt-btn-medium {
+.btn-medium {
   padding: .8rem 1.6rem;
   font-size: 1rem;
 }
 
-.rkt-btn-large {
+.btn-large {
   padding: .9rem 2rem;
   font-size: 1.1rem;
 }
 
-.rkt-btn-block {
+.btn-block {
   display: block;
   width: 100%;
 }
 
-.rkt-btn-primary {
+.btn-primary {
   background-color: $primary;
   border-color: $primary;
   color: $white;
@@ -59,7 +59,7 @@ p {
   }
 }
 
-.rkt-btn-secondary {
+.btn-secondary {
   background-color: $secondary;
   border-color: $secondary;
   color: $white;
@@ -69,7 +69,7 @@ p {
   }
 }
 
-.rkt-btn-success {
+.btn-success {
   background-color: $success;
   border-color: $success;
   color: $white;
@@ -79,7 +79,7 @@ p {
   }
 }
 
-.rkt-btn-warning {
+.btn-warning {
   background-color: $warning;
   border-color: $warning;
   color: $white;
@@ -89,7 +89,7 @@ p {
   }
 }
 
-.rkt-btn-danger {
+.btn-danger {
   background-color: $danger;
   border-color: $danger;
   color: $white;
@@ -99,7 +99,7 @@ p {
   }
 }
 
-.rkt-btn-info {
+.btn-info {
   background-color: $info;
   border-color: $info;
   color: $white;
@@ -109,7 +109,7 @@ p {
   }
 }
 
-.rkt-btn-dark {
+.btn-dark {
   background-color: $dark;
   border-color: $dark;
   color: $white;
@@ -119,7 +119,7 @@ p {
   }
 }
 
-.rkt-btn-light {
+.btn-light {
   background-color: $light;
   border-color: $light;
   color: darken($light, 10%);
@@ -129,7 +129,7 @@ p {
   }
 }
 
-.rkt-btn-black {
+.btn-black {
   background-color: $black;
   border-color: $black;
   color: $white;
@@ -139,7 +139,7 @@ p {
   }
 }
 
-.rkt-btn-white {
+.btn-white {
   background-color: $white;
   border-color: $white;
   color: $dark;
@@ -149,7 +149,7 @@ p {
   }
 }
 
-.rkt-btn-outline-primary {
+.btn-outline-primary {
   background-color: transparent;
   border-color: $primary;
   color: $primary;
@@ -159,7 +159,7 @@ p {
   }
 }
 
-.rkt-btn-outline-secondary {
+.btn-outline-secondary {
   background-color: transparent;
   border-color: $secondary;
   color: $secondary;
@@ -169,7 +169,7 @@ p {
   }
 }
 
-.rkt-btn-outline-success {
+.btn-outline-success {
   background-color: transparent;
   border-color: $success;
   color: $success;
@@ -179,7 +179,7 @@ p {
   }
 }
 
-.rkt-btn-outline-warning {
+.btn-outline-warning {
   background-color: transparent;
   border-color: $warning;
   color: $warning;
@@ -189,7 +189,7 @@ p {
   }
 }
 
-.rkt-btn-outline-danger {
+.btn-outline-danger {
   background-color: transparent;
   border-color: $danger;
   color: $danger;
@@ -199,7 +199,7 @@ p {
   }
 }
 
-.rkt-btn-outline-info {
+.btn-outline-info {
   background-color: transparent;
   border-color: $info;
   color: $info;
@@ -209,7 +209,7 @@ p {
   }
 }
 
-.rkt-btn-outline-dark {
+.btn-outline-dark {
   background-color: transparent;
   border-color: $dark;
   color: $dark;
@@ -219,7 +219,7 @@ p {
   }
 }
 
-.rkt-btn-outline-light {
+.btn-outline-light {
   background-color: transparent;
   border-color: $light;
   color: darken($light, 10%);
@@ -229,7 +229,7 @@ p {
   }
 }
 
-.rkt-btn-outline-black {
+.btn-outline-black {
   background-color: transparent;
   border-color: $black;
   color: $black;
@@ -239,7 +239,7 @@ p {
   }
 }
 
-.rkt-btn-outline-white {
+.btn-outline-white {
   background-color: transparent;
   border-color: $white;
   color: $white;

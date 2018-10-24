@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero-large rkt-bg-light rkt-marginless">
-      <div class="rkt-hero-body">
-        <div class="rkt-container">
-          <div class="rkt-row">
-            <div class="rkt-col">
-              <h1 class="rkt-marginless">{{ pageTitle }}</h1>
-              <p class="rkt-lead">
+    <section class="hero hero-large bg-light marginless">
+      <div class="hero-body">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="marginless">{{ pageTitle }}</h1>
+              <p class="lead">
                 {{ description }}
               </p>
             </div>
@@ -14,58 +14,58 @@
         </div>
       </div>
     </section>
-    <section class="rkt-p-t-3">
-      <div class="rkt-container">
-        <div class="rkt-row">
-          <div class="rkt-col rkt-col-is-three-quarters rkt-ml-auto rkt-mr-auto rkt-is-tablet">
-            <h2 v-html="section.one.title" class="rkt-font-weight-normal rkt-m-y-0"></h2>
-            <p v-html="section.one.text" class="rkt-text-dark rkt-font-weight-light"></p>
+    <section class="p-t-3">
+      <div class="container">
+        <div class="row">
+          <div class="col col-is-three-quarters ml-auto mr-auto is-tablet">
+            <h2 v-html="section.one.title" class="font-weight-normal m-y-0"></h2>
+            <p v-html="section.one.text" class="text-dark font-weight-light"></p>
           </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="rkt-container">
-        <div class="rkt-row">
-          <div class="rkt-col rkt-col-is-three-quarters rkt-ml-auto rkt-mr-auto rkt-is-tablet">
-            <h2 v-html="section.two.title" class="rkt-font-weight-normal rkt-m-y-0"></h2>
+      <div class="container">
+        <div class="row">
+          <div class="col col-is-three-quarters ml-auto mr-auto is-tablet">
+            <h2 v-html="section.two.title" class="font-weight-normal m-y-0"></h2>
           </div>
         </div>
-        <div class="rkt-row">
-          <div class="rkt-col rkt-col-is-three-quarters rkt-ml-auto rkt-mr-auto rkt-is-tablet">
-            <div class="rkt-row rkt-text-center rkt-is-mobile">
-              <div class="rkt-col">
-                <h4 class="rkt-marginless">Lightweight</h4>
-                <p class="rkt-font-weight-light">
+        <div class="row">
+          <div class="col col-is-three-quarters ml-auto mr-auto is-tablet">
+            <div class="row text-center is-mobile">
+              <div class="col">
+                <h4 class="marginless">Lightweight</h4>
+                <p class="font-weight-light">
                   <small>All our components are lightweight.</small>
                 </p>
-                <img src="~assets/icons/lightweight.svg" alt="Rocket CSS - Lightweight components" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/lightweight.svg" alt="Rocket CSS - Lightweight components" class="img-fluid feature-icon">
               </div>
-              <div class="rkt-col">
-                <h4 class="rkt-marginless">Pure CSS / No JS</h4>
-                <p class="rkt-font-weight-light">
+              <div class="col">
+                <h4 class="marginless">Pure CSS / No JS</h4>
+                <p class="font-weight-light">
                   <small>A CSS only framework.</small>
                 </p>
-                <img src="~assets/icons/css.svg" alt="Rocket CSS - CSS only, no JS" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/css.svg" alt="Rocket CSS - CSS only, no JS" class="img-fluid feature-icon">
               </div>
-              <div class="rkt-col">
-                <h4 class="rkt-marginless">Built with Flexbox</h4>
-                <p class="rkt-font-weight-light">
+              <div class="col">
+                <h4 class="marginless">Built with Flexbox</h4>
+                <p class="font-weight-light">
                   <small>No more static layouts.</small>
                 </p>
-                <img src="~assets/icons/flexbox.svg" alt="Rocket CSS - Flexbox CSS framework" class="rkt-img-fluid feature-icon">
+                <img src="~assets/icons/flexbox.svg" alt="Rocket CSS - Flexbox CSS framework" class="img-fluid feature-icon">
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="rkt-p-b-3">
-      <div class="rkt-container">
-        <div class="rkt-row">
-          <div class="rkt-col rkt-col-is-three-quarters rkt-ml-auto rkt-mr-auto rkt-is-tablet">
-            <h2 v-html="section.three.title" class="rkt-font-weight-normal rkt-m-y-0"></h2>
-            <p v-html="section.three.text" class="rkt-text-dark rkt-font-weight-light"></p>
+    <section class="p-b-3">
+      <div class="container">
+        <div class="row">
+          <div class="col col-is-three-quarters ml-auto mr-auto is-tablet">
+            <h2 v-html="section.three.title" class="font-weight-normal m-y-0"></h2>
+            <p v-html="section.three.text" class="text-dark font-weight-light"></p>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default {
       section: {
         one: {
           title: "How <strong>Rocket CSS</strong> is different",
-          text: "Rocket CSS is a small, lightweight CSS-only framework that allows you to quickly build web applications without the hassle of remembering 1,000s of classes. Unlike other CSS frameworks like Twitter Bootstrap, Rocket CSS comes with a handful of simple components which are all prefixed with the class <code>.rkt-</code> which makes it easier to integrate Rocket CSS into an existing site."
+          text: "Rocket CSS is a small, lightweight CSS-only framework that allows you to quickly build web applications without the hassle of remembering 1,000s of classes. Unlike other CSS frameworks like Twitter Bootstrap, Rocket CSS comes with a handful of simple components which are all prefixed with the class <code>.</code> which makes it easier to integrate Rocket CSS into an existing site."
         },
         two: {
           title: "<strong>Rocket CSS</strong> features"
