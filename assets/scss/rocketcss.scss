@@ -10,13 +10,14 @@ Website: https://sts-ryan-holton.github.io/rocket-css/
 @import 'variables';
 @import 'normalize';
 @import 'resets';
+@import 'functions';
+@import 'mixins';
 
 // Main
 @import 'grid';
 @import 'utilities';
 
 // Components
-@import 'colour';
 @import 'typography';
 @import 'buttons';
 @import 'navbar';

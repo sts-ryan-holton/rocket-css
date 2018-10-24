@@ -25,3 +25,17 @@ $font-weight-bold:    700 !default;
 // Spacing
 $default-spacing:     .375rem !default;
 $default-hero-size:   3.5rem !default;
+
+$colours: (
+  primary:            $primary,
+  secondary:          $secondary,
+  dark:               $dark,
+  light:              $light,
+  success:            $success,
+  warning:            $warning,
+  danger:             $danger,
+  info:               $info,
+  white:              $white,
+  black:              $black,
+  muted:              lighten($dark, 40%)
+);

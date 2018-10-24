@@ -1,4 +1,4 @@
-# Rocket CSS
+# :rocket: Rocket CSS
 
 ### Rocket CSS is an open source, lightweight CSS framework built using Flexbox.
 
