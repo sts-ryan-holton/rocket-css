@@ -1,5 +1,5 @@
 .rkt-marginless {
-  margin: 0 !important;
+  margin: 0 !important; /* stylelint-disable-line declaration-no-important */
 }
 
 .rkt-m-auto {
@@ -203,7 +203,7 @@
 }
 
 .rkt-paddingless {
-  padding: 0 !important;
+  padding: 0 !important; /* stylelint-disable-line declaration-no-important */
 }
 
 .rkt-p-auto {

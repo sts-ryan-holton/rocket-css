@@ -17,31 +17,31 @@ p {
   font-weight: $font-weight-normal;
   vertical-align: middle;
   user-select: none;
-  letter-spacing: .15px;
-  border: 1px solid transparent;
-  padding: 6px 12px;
-  padding: .7em 1.2em;
-  font-size: .9em;
+  letter-spacing: .009rem;
+  border: .0625rem solid transparent;
+  padding: .375rem .75rem;
+  padding: .7rem 1.2rem;
+  font-size: .9rem;
   cursor: pointer;
 }
 
 .rkt-btn-rounded {
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 
 .rkt-btn-small {
-  padding: .6em .8em;
-  font-size: .8em;
+  padding: .6rem .8rem;
+  font-size: .8rem;
 }
 
 .rkt-btn-medium {
-  padding: .8em 1.6em;
-  font-size: 1em;
+  padding: .8rem 1.6rem;
+  font-size: 1rem;
 }
 
 .rkt-btn-large {
-  padding: .9em 2em;
-  font-size: 1.1em;
+  padding: .9rem 2rem;
+  font-size: 1.1rem;
 }
 
 .rkt-btn-block {
