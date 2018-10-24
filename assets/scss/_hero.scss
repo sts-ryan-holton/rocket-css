@@ -1,31 +1,31 @@
-.rkt-hero {
+.hero {
   align-items: stretch;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
-.rkt-hero-body {
+.hero-body {
   flex-grow: 1;
-  padding: $default-hero-size 1em;
+  padding: $default-hero-size 1rem;
 }
 
-.rkt-hero-small {
-  .rkt-hero-body {
+.hero-small {
+  .hero-body {
     padding-top: $default-hero-size - 2;
     padding-bottom: $default-hero-size - 2;
   }
 }
 
-.rkt-hero-large {
-  .rkt-hero-body {
+.hero-large {
+  .hero-body {
     padding-top: $default-hero-size + 2;
     padding-bottom: $default-hero-size + 2;
   }
 }
 
-.rkt-hero-extra-large {
-  .rkt-hero-body {
+.hero-extra-large {
+  .hero-body {
     padding-top: $default-hero-size + 4;
     padding-bottom: $default-hero-size + 4;
   }

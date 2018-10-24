@@ -15,18 +15,18 @@
   width: 100%;
 }
 
-.rkt-docs-hero {
-  .rkt-col {
+.docs-hero {
+  .col {
     padding-left: .5em;
     padding-right: .5em;
   }
 }
 
-.rkt-section-title {
-  .rkt-section-anchor {
+.section-title {
+  .section-anchor {
     display: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: .625rem;
+    padding-right: .625rem;
     font-weight: 200;
     opacity: .8;
     &:hover {
@@ -34,14 +34,13 @@
     }
   }
   &:hover {
-    .rkt-section-anchor {
-      display: inline-block;;
-
+    .section-anchor {
+      display: inline-block;
     }
   }
 }
 
-.rkt-footer-links {
+.footer-links {
   ul {
     list-style-type: none;
     li {
@@ -53,39 +52,39 @@
   }
 }
 
-.rkt-docnav-item {
+.docnav-item {
   ul {
     list-style-type: none;
     li {
       a {
-        font-size: .85em;
+        font-size: .85rem;
       }
     }
   }
 }
 
-.rkt-docs-item {
+.docs-item {
   opacity: .75;
   &:hover {
     opacity: 1;
   }
 }
 
-.rkt-docs-item-active {
+.docs-item-active {
   opacity: 1;
   ul {
     display: block;
   }
 }
 
-.rkt-docs-nav-sidebar {
+.docs-nav-sidebar {
   background-color: #fbfbfb;
 }
 
-.rkt-nav-icon-btn {
-  width: 38px;
-  padding-left: 5px;
-  padding-right: 5px;
+.nav-icon-btn {
+  width: 2.375rem;
+  padding-left: .3125rem;
+  padding-right: .3125rem;
   border-color: transparent;
   &:hover, &:focus {
     border-color: transparent;
@@ -94,7 +93,7 @@
 
 @media (max-width: 992px) {
 
-  .rkt-highlight-code {
+  .highlight-code {
     pre {
       overflow-x: auto;
     }
@@ -104,21 +103,21 @@
 
 @media (max-width: 576px) {
 
-  .rkt-home-buttons {
-    .rkt-btn-primary {
-      margin-bottom: .5em;
+  .home-buttons {
+    .btn-primary {
+      margin-bottom: .5rem;
     }
   }
 
-  .rkt-page-hero {
-    .rkt-hero-body {
-      padding-top: 1em;
-      padding-bottom: 1em;
+  .page-hero {
+    .hero-body {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
   }
 
-  .rkt-home-guide {
-    padding-top: .5em;
+  .home-guide {
+    padding-top: .5rem;
     padding-bottom: 0;
   }
 

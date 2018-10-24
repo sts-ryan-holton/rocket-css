@@ -1,0 +1,47 @@
+{
+  "rules": {
+    "block-no-empty": true,
+    "comment-no-empty": true,
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": null,
+    "font-family-no-duplicate-names": true,
+    "font-family-no-missing-generic-family-keyword": true,
+    "function-calc-no-unspaced-operator": true,
+    "function-linear-gradient-no-nonstandard-direction": true,
+    "no-duplicate-at-import-rules": true,
+    "no-extra-semicolons": true,
+    "property-no-unknown": true,
+    "string-no-newline": true,
+    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-element-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "unit-no-unknown": true,
+    "declaration-no-important": true,
+    "length-zero-no-unit": true,
+    "length-zero-no-unit": true,
+    "max-empty-lines": 1,
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "property-no-vendor-prefix": true,
+    "unit-whitelist": ["px", "em", "rem", "deg", "%", "s", "vw", "vh"],
+    "unit-blacklist": [["px"], {
+      "ignoreProperties": {
+         "px": [
+           "width",
+           "height",
+           "min-width",
+           "max-width",
+           "min-height",
+           "max-height",
+           "box-shadow",
+           "text-shadow",
+           "background"
+         ]
+      },
+      "ignoreMediaFeatureNames": {
+        "px": [ "min-width", "max-width", "/height$/" ],
+        "dpi": [ "resolution" ]
+      }
+    }]
+  }
+}

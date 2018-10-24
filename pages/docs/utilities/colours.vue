@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section class="rkt-hero rkt-hero rkt-hero-small rkt-marginless rkt-docs-hero">
-      <div class="rkt-hero-body">
-        <div class="rkt-container-fluid">
-          <div class="rkt-row">
-            <div class="rkt-col">
-              <h1 class="rkt-font-weight-bold rkt-m-y-0">{{ banner.mainTitle }}</h1>
-              <p class="rkt-lead rkt-text-muted rkt-m-b-0">
+    <section class="hero hero hero-small marginless docs-hero">
+      <div class="hero-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h1 class="font-weight-bold m-y-0">{{ banner.mainTitle }}</h1>
+              <p class="lead text-muted m-b-0">
                 {{ banner.description }}
               </p>
             </div>
@@ -14,85 +14,85 @@
         </div>
       </div>
     </section>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="basics" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Basics<a href="#basics" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="basics" class="font-weight-bold m-y-0 section-title">Basics<a href="#basics" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Rocket CSS comes with a range of useful colour classes. The colour can be changed using our SCSS variables if required.
         </p>
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="text-colour" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Text Colour<a href="#text-colour" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="text-colour" class="font-weight-bold m-y-0 section-title">Text Colour<a href="#text-colour" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Utilise one of our <strong>text</strong> colour classes:
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-text-primary</code> to set <strong>primary</strong> text colour.
+            - <code>.text-primary</code> to set <strong>primary</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-secondary</code> to set <strong>secondary</strong> text colour.
+            - <code>.text-secondary</code> to set <strong>secondary</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-success</code> to set <strong>success</strong> text colour.
+            - <code>.text-success</code> to set <strong>success</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-warning</code> to set <strong>warning</strong> text colour.
+            - <code>.text-warning</code> to set <strong>warning</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-danger</code> to set <strong>danger</strong> text colour.
+            - <code>.text-danger</code> to set <strong>danger</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-info</code> to set <strong>info</strong> text colour.
+            - <code>.text-info</code> to set <strong>info</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-dark</code> to set <strong>dark</strong> text colour.
+            - <code>.text-dark</code> to set <strong>dark</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-light</code> to set <strong>light</strong> text colour.
+            - <code>.text-light</code> to set <strong>light</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-black</code> to set <strong>black</strong> text colour.
+            - <code>.text-black</code> to set <strong>black</strong> text colour.
           </li>
           <li>
-            - <code>.rkt-text-white</code> to set <strong>white</strong> text colour.
+            - <code>.text-white</code> to set <strong>white</strong> text colour.
           </li>
         </ul>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-left">
-            <div class="rkt-col">
-              <p class="rkt-text-primary rkt-m-b-0">
-                .rkt-text-primary
+        <figure class="highlight">
+          <div class="row text-left">
+            <div class="col">
+              <p class="text-primary m-b-0">
+                .text-primary
               </p>
-              <p class="rkt-text-secondary rkt-m-b-0">
-                .rkt-text-secondary
+              <p class="text-secondary m-b-0">
+                .text-secondary
               </p>
-              <p class="rkt-text-success rkt-m-b-0">
-                .rkt-text-success
+              <p class="text-success m-b-0">
+                .text-success
               </p>
-              <p class="rkt-text-warning rkt-m-b-0">
-                .rkt-text-warning
+              <p class="text-warning m-b-0">
+                .text-warning
               </p>
-              <p class="rkt-text-danger rkt-m-b-0">
-                .rkt-text-danger
+              <p class="text-danger m-b-0">
+                .text-danger
               </p>
-              <p class="rkt-text-info rkt-m-b-0">
-                .rkt-text-info
+              <p class="text-info m-b-0">
+                .text-info
               </p>
-              <p class="rkt-text-dark rkt-m-b-0">
-                .rkt-text-dark
+              <p class="text-dark m-b-0">
+                .text-dark
               </p>
-              <p class="rkt-text-light rkt-bg-black rkt-m-b-0">
-                .rkt-text-light
+              <p class="text-light bg-black m-b-0">
+                .text-light
               </p>
-              <p class="rkt-text-black rkt-m-b-0">
-                .rkt-text-black
+              <p class="text-black m-b-0">
+                .text-black
               </p>
-              <p class="rkt-text-white rkt-bg-black rkt-m-b-0">
-                .rkt-text-white
+              <p class="text-white bg-black m-b-0">
+                .text-white
               </p>
             </div>
           </div>
@@ -100,77 +100,77 @@
         <!-- /Example -->
       </div>
     </div>
-    <div class="rkt-row rkt-m-t-2">
-      <div class="rkt-col rkt-p-x-2">
-        <h2 id="background-colour" class="rkt-font-weight-bold rkt-m-y-0 rkt-section-title">Background Colour<a href="#background-colour" class="rkt-section-anchor">#</a></h2>
-        <p class="rkt-text-dark rkt-m-b-0">
+    <div class="row m-t-2">
+      <div class="col p-x-2">
+        <h2 id="background-colour" class="font-weight-bold m-y-0 section-title">Background Colour<a href="#background-colour" class="section-anchor">#</a></h2>
+        <p class="text-dark m-b-0">
           Utilise one of our <strong>background</strong> colour classes:
         </p>
-        <ul class="rkt-list">
+        <ul class="list">
           <li>
-            - <code>.rkt-bg-primary</code> to set <strong>primary</strong> background colour.
+            - <code>.bg-primary</code> to set <strong>primary</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-secondary</code> to set <strong>secondary</strong> background colour.
+            - <code>.bg-secondary</code> to set <strong>secondary</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-success</code> to set <strong>success</strong> background colour.
+            - <code>.bg-success</code> to set <strong>success</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-warning</code> to set <strong>warning</strong> background colour.
+            - <code>.bg-warning</code> to set <strong>warning</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-danger</code> to set <strong>danger</strong> background colour.
+            - <code>.bg-danger</code> to set <strong>danger</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-info</code> to set <strong>info</strong> background colour.
+            - <code>.bg-info</code> to set <strong>info</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-dark</code> to set <strong>dark</strong> background colour.
+            - <code>.bg-dark</code> to set <strong>dark</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-light</code> to set <strong>light</strong> background colour.
+            - <code>.bg-light</code> to set <strong>light</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-black</code> to set <strong>black</strong> background colour.
+            - <code>.bg-black</code> to set <strong>black</strong> background colour.
           </li>
           <li>
-            - <code>.rkt-bg-white</code> to set <strong>white</strong> background colour.
+            - <code>.bg-white</code> to set <strong>white</strong> background colour.
           </li>
         </ul>
         <!-- Example -->
-        <figure class="rkt-highlight">
-          <div class="rkt-row rkt-text-left">
-            <div class="rkt-col">
-              <p class="rkt-bg-primary rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-primary
+        <figure class="highlight">
+          <div class="row text-left">
+            <div class="col">
+              <p class="bg-primary text-white p-2 m-b-0">
+                .bg-primary
               </p>
-              <p class="rkt-bg-secondary rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-secondary
+              <p class="bg-secondary text-white p-2 m-b-0">
+                .bg-secondary
               </p>
-              <p class="rkt-bg-success rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-success
+              <p class="bg-success text-white p-2 m-b-0">
+                .bg-success
               </p>
-              <p class="rkt-bg-warning rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-warning
+              <p class="bg-warning text-white p-2 m-b-0">
+                .bg-warning
               </p>
-              <p class="rkt-bg-danger rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-danger
+              <p class="bg-danger text-white p-2 m-b-0">
+                .bg-danger
               </p>
-              <p class="rkt-bg-info rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-info
+              <p class="bg-info text-white p-2 m-b-0">
+                .bg-info
               </p>
-              <p class="rkt-bg-dark rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-dark
+              <p class="bg-dark text-white p-2 m-b-0">
+                .bg-dark
               </p>
-              <p class="rkt-bg-light rkt-text-black rkt-p-2 rkt-m-b-0">
-                .rkt-bg-light
+              <p class="bg-light text-black p-2 m-b-0">
+                .bg-light
               </p>
-              <p class="rkt-bg-black rkt-text-white rkt-p-2 rkt-m-b-0">
-                .rkt-bg-black
+              <p class="bg-black text-white p-2 m-b-0">
+                .bg-black
               </p>
-              <p class="rkt-bg-white rkt-text-black rkt-p-2 rkt-m-b-0">
-                .rkt-bg-white
+              <p class="bg-white text-black p-2 m-b-0">
+                .bg-white
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.0.1",
+      rocketVersion: "v1.1.0",
       banner: {
         mainTitle: "Colour",
         description: "Rocket CSS comes with many useful colour utility classes, use them to quickly add colour to your applications."

@@ -1,27 +1,27 @@
-.rkt-navbar {
+.navbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 15px;
+  padding: .9375rem;
 }
 
-.rkt-navbar-light {
+.navbar-light {
   background-color: $light;
 }
 
-.rkt-navbar-dark {
+.navbar-dark {
   background-color: $dark;
 }
 
-.rkt-navbar-primary {
+.navbar-primary {
   background-color: $primary;
 }
 
-.rkt-navbar-toggle {
+.navbar-toggle {
   display: none;
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
   padding: 0;
   border: 0;
   outline: none;
@@ -32,23 +32,23 @@
   }
 }
 
-.rkt-navbar-toggle-bar {
+.navbar-toggle-bar {
   position: absolute;
   display: inline-block;
-  top: 14px;
-  left: 12px;
-  height: 1px;
-  width: 16px;
+  top: .875rem;
+  left: .75rem;
+  height: .0625rem;
+  width: 1rem;
   background-color: $dark;
   &:nth-child(2) {
-    top: 19px;
+    top: 1.1875rem;
   }
   &:nth-child(3) {
-    top: 24px;
+    top: 1.5rem;
   }
 }
 
-.rkt-navbar-nav {
+.navbar-nav {
   display: flex;
   list-style-type: none;
   padding-left: 0;
@@ -56,24 +56,24 @@
   margin-bottom: 0;
 }
 
-.rkt-navbar-brand {
+.navbar-brand {
   padding-top: .5em;
   padding-bottom: .5em;
   padding-right: 1.1em;
   font-size: 1.2em;
-  letter-spacing: .1px;
+  letter-spacing: .006rem;
 }
 
-.rkt-nav-link {
+.nav-link {
   padding: .5em .7em;
   font-size: .85em;
-  letter-spacing: .1px;
+  letter-spacing: .006rem;
   opacity: .8;
   &:hover {
     opacity: 1;
   }
 }
 
-.rkt-nav-link-active {
+.nav-link-active {
   opacity: 1;
 }

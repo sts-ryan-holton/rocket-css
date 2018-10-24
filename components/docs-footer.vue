@@ -1,23 +1,23 @@
 <template>
   <div>
-    <footer class="rkt-bg-primary rkt-p-y-2">
-      <div class="rkt-container">
-        <div class="rkt-row">
-          <div class="rkt-col rkt-footer-links">
-            <ul class="rkt-paddingless rkt-marginless">
+    <footer class="bg-primary p-y-2">
+      <div class="container">
+        <div class="row">
+          <div class="col footer-links">
+            <ul class="paddingless marginless">
               <li>
-                <a href="https://github.com/sts-ryan-holton/rocket-css" target="_blank" class="rkt-text-white rkt-font-weight-normal">Github</a>
+                <a href="https://github.com/sts-ryan-holton/rocket-css" target="_blank" class="text-white font-weight-normal">Github</a>
               </li>
-              <li class="rkt-m-l-2">
-                <nuxt-link to="/" class="rkt-text-white rkt-font-weight-normal" exact>Home</nuxt-link>
+              <li class="m-l-2">
+                <nuxt-link to="/" class="text-white font-weight-normal" exact>Home</nuxt-link>
               </li>
             </ul>
           </div>
         </div>
-        <div class="rkt-row">
-          <div class="rkt-col">
+        <div class="row">
+          <div class="col">
             <small>
-              <p v-html="copyright" class="rkt-text-white rkt-font-weight-light rkt-marginless"></p>
+              <p v-html="copyright" class="text-white font-weight-light marginless"></p>
             </small>
           </div>
         </div>
@@ -30,7 +30,7 @@
 export default {
   data () {
     return {
-      copyright: "Rocket CSS is built by <a href='https://github.com/sts-ryan-holton' target='_blank' class='rkt-text-white rkt-font-weight-normal'>Ryan</a> and maintained by a group of <a href='https://github.com/sts-ryan-holton/rocket-css/graphs/contributors' target='_blank' class='rkt-text-white rkt-font-weight-normal'>collaborators.</a>"
+      copyright: "Rocket CSS is built by <a href='https://github.com/sts-ryan-holton' target='_blank' class='text-white font-weight-normal'>Ryan</a> and maintained by a group of <a href='https://github.com/sts-ryan-holton/rocket-css/graphs/contributors' target='_blank' class='text-white font-weight-normal'>collaborators.</a>"
     }
   }
 }
