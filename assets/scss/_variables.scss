@@ -11,11 +11,11 @@ $white:               #ffffff !default;
 $black:               #000000 !default;
 
 // Grid
-$container-width:     1140px !default;
-$mobile:              576px  !default;
-$tablet:              768px  !default;
-$desktop:             992px  !default;
-$widescreen:          1140px  !default;
+$container-width:     1140px !default; /* stylelint-disable-line unit-blacklist */
+$mobile:              576px !default; /* stylelint-disable-line unit-blacklist */
+$tablet:              768px !default; /* stylelint-disable-line unit-blacklist */
+$desktop:             992px !default; /* stylelint-disable-line unit-blacklist */
+$widescreen:          1140px !default; /* stylelint-disable-line unit-blacklist */
 
 // Font
 $font-weight-light:   100 !default;
