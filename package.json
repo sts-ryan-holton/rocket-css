@@ -1,6 +1,6 @@
 {
   "name": "rocket-css",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The home of the open source lightweight Rocket CSS framework.",
   "scripts": {
     "dev": "nuxt",
@@ -27,24 +27,23 @@
   },
   "homepage": "https://sts-ryan-holton.github.io/rocket-css/",
   "dependencies": {
-    "nuxt": "2.2.0"
+    "nuxt": "2.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.6.0",
+    "eslint": "^5.12.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "3.9.4",
-    "gulp-cli": "2.0.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "4.1.0",
-    "gulp-sass": "4.0.1",
-    "gulp-watch": "5.0.0",
-    "i": "^0.3.6"
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
