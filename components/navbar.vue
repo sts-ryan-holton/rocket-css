@@ -22,7 +22,7 @@
       </div>
       <div class="ml-auto d-none-mobile">
         <a href="https://github.com/sts-ryan-holton/rocket-css" class="btn btn-outline-white nav-icon-btn m-r-1" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.1.0.zip" class="btn btn-outline-white" download>Download</a>
+        <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.2.0.zip" class="btn btn-outline-white" download>Download</a>
       </div>
     </nav>
   </div>

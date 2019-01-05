@@ -63,7 +63,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.1.0",
+      rocketVersion: "v1.2.0",
       banner: {
         mainTitle: "Visibility",
         description: "Control what content is displayed and how with Rocket CSS."

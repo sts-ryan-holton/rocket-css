@@ -8,7 +8,7 @@
               <h1 class="font-weight-light marginless"><strong>{{ brand }}</strong> {{ title }}</h1>
               <div class="d-flex-tablet flex-column-mobile p-y-2 home-buttons">
                 <nuxt-link to="/docs" class="btn btn-primary btn-large flex-fill-tablet">{{ button.one.text }}<img src="~assets/icons/rocket.svg" alt="Rocket CSS - Lightweight Flexbox framework" class="m-l-1 align-middle rocket-icon d-none-mobile"></nuxt-link>
-                <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.1.0.zip" class="btn btn-outline-primary btn-large flex-fill-tablet m-l-1 marginless-mobile" download><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons align-text-bottom m-l-1 d-none-mobile">save_alt</i></a>
+                <a href="https://github.com/sts-ryan-holton/rocket-css/archive/1.2.0.zip" class="btn btn-outline-primary btn-large flex-fill-tablet m-l-1 marginless-mobile" download><strong>{{ button.two.text }}</strong> {{ rocketVersion }}<i class="material-icons align-text-bottom m-l-1 d-none-mobile">save_alt</i></a>
               </div>
               <p class="marginless text-muted">
                 <small>Version: {{ rocketVersion }}</small>
@@ -62,7 +62,7 @@ export default {
   scrollToTop: true,
   data () {
     return {
-      rocketVersion: "v1.1.0",
+      rocketVersion: "v1.2.0",
       brand: "Rocket CSS",
       title: "is an open source, lightweight CSS framework built using Flexbox.",
       button: {
